@@ -24,6 +24,7 @@
 
 
     <!-- place pour le _footer.php -->
+    <?php include('./src/_footer.php'); ?>
 
 
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->

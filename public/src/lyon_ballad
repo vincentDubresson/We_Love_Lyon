@@ -25,7 +25,6 @@
 
     <!-- place pour le _footer.php -->
 
-
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
 </body>
 

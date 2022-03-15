@@ -1,5 +1,5 @@
         <nav class="headerNav">
-            <div class="headerNav>
+            <div class="headerNav">
                 <img src="https://fakeimg.pl/150x50/">
             </div>
             <ul>

@@ -18,7 +18,7 @@
 
     <header>
         
-        <!-- place pour le _header_nav.php -->
+        <?php include("src/_header_nav.php"); ?>
 
     </header>
 

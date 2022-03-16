@@ -10,8 +10,12 @@
 
 /* _footer */
 footer {
-    padding: 1rem;
-    background-color: lightgrey;
+    height: 60px;
+    color: white;
+    background-color:rgb(85, 84, 84) ;
 }
-
-
+.text_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

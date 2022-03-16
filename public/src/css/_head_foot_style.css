@@ -1,5 +1,9 @@
 /* _header_nav */
 
+.headerNavMax {
+    display: none;
+}
+
 header {
     position: relative;
 }

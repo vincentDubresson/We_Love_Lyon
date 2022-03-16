@@ -21,16 +21,17 @@
     <header>
         
         <?php include("./_header_nav.php"); ?>
-        <div class="header-type">
-            <p> Le saviez -vous ? </br>
-            Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !
-        </div> 
-
-</div>
+        
 
     </header>
 
     <div class="photos">
+
+            <div class="header-type">
+                <p> Le saviez -vous ? </br>
+                 Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !
+            </div> 
+            
             <h1> Sites mémorables</h1>
 
             <div class="photo_description">

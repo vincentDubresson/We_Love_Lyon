@@ -28,8 +28,6 @@
     <footer>
         <?php include('./src/_footer.php'); ?>
     </footer>
-    
-    
 
 
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->

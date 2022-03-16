@@ -10,22 +10,29 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="./css/hotels_restaurants.css">
+    <link rel="stylesheet" href="./css/_head_foot_style.css">
+    <link rel="stylesheet" href="./css/css_init.css">
     <title><!-- Titre à changer --></title>
 </head>
 
 <body>
 
-<header>
-        
+    <header>
         <!-- place pour le _header_nav.php -->
-        <?php include("src/_header_nav.php"); ?>
-
+        <?php include("./_header_nav.php"); ?>
     </header>
 
+    <h1>Les hôtels et restaurants incontournable de Lyon</h1>
 
-    <!-- place pour le _footer.php -->
-    <?php include('./src/_footer.php'); ?>
+    <div>
+
+    </div>
+    
+    <footer>
+        <!-- place pour le _footer.php -->
+        <?php include('./_footer.php'); ?>
+    </footer>
 
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
 </body>

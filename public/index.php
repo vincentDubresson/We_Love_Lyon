@@ -20,11 +20,20 @@
 
     <header>
         <?php include("src/_header_nav.php"); ?>
-    </header>  
+
+        <h1>aaa</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati pariatur modi iusto nemo sed nesciunt, recusandae distinctio mollitia laborum quae quam temporibus sint neque expedita illum harum ex aliquid. Adipisci.</p>
+    </header>
 
     <footer>
         <?php include('./src/_footer.php'); ?>
     </footer>
+
+ 
+ 
+
+
+
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
 </body>
 

@@ -6,7 +6,7 @@ header {
 
 .headerNavMin {
     position: absolute;
-    bottom: -60px;
+    top: -195px;
     background-color: var(--backgroundDarkNav);
     display: flex;
     flex-direction: column-reverse;
@@ -20,7 +20,7 @@ header {
 }
 
 .headerNavMin:hover {
-   bottom: -250px; 
+   top: 0; 
 }
 
 .headerList {

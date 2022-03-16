@@ -56,8 +56,8 @@ a {
 /* _footer */
 footer {
     height: 60px;
-    color: white;
-    background-color:rgb(85, 84, 84);
+    color: var(--colorLight);
+    background-color: var(--colorDark);
 }
 .text_footer {
     display: flex;

@@ -19,16 +19,12 @@
 <body>
 
     <header>
-        
         <?php include("src/_header_nav.php"); ?>
+    </header>  
 
-    </header>
-
-
-    
-    <!--<?php include('./src/_footer.php'); ?>-->
-
-
+    <footer>
+        <?php include('./src/_footer.php'); ?>
+    </footer>
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
 </body>
 

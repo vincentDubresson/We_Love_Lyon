@@ -1,9 +1,9 @@
 /* Variables Assignation */
 
 :root {
-    --backgroundDarkNav: black;
+    --backgroundDarkNav: rgb(85, 84, 84);
     --backgroundLightNav: lightgray;
-    --colorDark: black;
+    --colorDark: rgb(85, 84, 84);
     --colorLight: lightgray;
 }
 

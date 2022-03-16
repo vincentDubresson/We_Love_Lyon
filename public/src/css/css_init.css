@@ -1,0 +1,13 @@
+/* Variables Assignation */
+
+:root {
+    --backgroundDarkNav: black;
+    --backgroundLightNav: lightgray;
+    --colorDark: black;
+    --colorLight: lightgray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

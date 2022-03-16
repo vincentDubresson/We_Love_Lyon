@@ -11,6 +11,7 @@
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
     <link rel="stylesheet" href="src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="src/css/css_init.css">
     <title><!-- Titre à changer --></title>
 </head>
 

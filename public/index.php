@@ -19,14 +19,15 @@
 <body>
 
     <header>
-        
         <?php include("src/_header_nav.php"); ?>
-
+ 
+        <h1>aaa</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati pariatur modi iusto nemo sed nesciunt, recusandae distinctio mollitia laborum quae quam temporibus sint neque expedita illum harum ex aliquid. Adipisci.</p>
     </header>
 
 
     
-    <!--<?php include('./src/_footer.php'); ?>-->
+    <?php include('./src/_footer.php'); ?>
 
 
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->

@@ -22,9 +22,85 @@
 
     </header>
 
+    <div class="photos">
 
-    <!-- place pour le _footer.php -->
-    
+            <div class="photo_description">
+                <img src="https://via.placeholder.com/300x350"/>
+                <p class="title_photo">Titre photo</p>
+                <p>
+                Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression. Le Lorem Ipsum est
+                le faux texte standard de l'imprimerie depuis les années 1500, quand
+                un imprimeur anonyme assembla ensemble des morceaux de texte pour
+                réaliser un livre spécimen de polices de texte.
+                </p>
+            </div>
+
+            <div class="photo_description">
+                <img src="https://via.placeholder.com/300x350"/>
+                <p class="title_photo">Titre photo</p>
+                <p>
+                Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression. Le Lorem Ipsum est
+                le faux texte standard de l'imprimerie depuis les années 1500, quand
+                un imprimeur anonyme assembla ensemble des morceaux de texte pour
+                réaliser un livre spécimen de polices de texte.
+                </p>
+            </div>
+
+            <div class="photo_description">
+                <img src="https://via.placeholder.com/300x350"/>
+                <p class="title_photo">Titre photo</p>
+                <p>
+                Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression. Le Lorem Ipsum est
+                le faux texte standard de l'imprimerie depuis les années 1500, quand
+                un imprimeur anonyme assembla ensemble des morceaux de texte pour
+                réaliser un livre spécimen de polices de texte.
+                </p>
+            </div>
+
+            <div class="photo_description">
+                <img src="https://via.placeholder.com/300x350"/>
+                <p class="title_photo">Titre photo</p>
+                <p>
+                Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression. Le Lorem Ipsum est
+                le faux texte standard de l'imprimerie depuis les années 1500, quand
+                un imprimeur anonyme assembla ensemble des morceaux de texte pour
+                réaliser un livre spécimen de polices de texte.
+                </p>
+            </div>
+
+            <div class="photo_description">
+                <img src="https://via.placeholder.com/300x350"/>
+                <p class="title_photo">Titre photo</p>
+                <p>
+                Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression. Le Lorem Ipsum est
+                le faux texte standard de l'imprimerie depuis les années 1500, quand
+                un imprimeur anonyme assembla ensemble des morceaux de texte pour
+                réaliser un livre spécimen de polices de texte.
+                </p>
+            </div> 
+
+            <div class="photo_description">
+                <img src="https://via.placeholder.com/300x350"/>
+                <p class="title_photo">Titre photo</p>
+                <p>
+                Le Lorem Ipsum est simplement du faux texte employé dans la
+                composition et la mise en page avant impression. Le Lorem Ipsum est
+                le faux texte standard de l'imprimerie depuis les années 1500, quand
+                un imprimeur anonyme assembla ensemble des morceaux de texte pour
+                réaliser un livre spécimen de polices de texte.
+                </p>
+            </div>   
+
+    <footer>
+
+        <?php include('./src/_footer.php'); ?>
+
+    </footer>
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
 </body>
 

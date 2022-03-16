@@ -1,8 +1,30 @@
 /* _header_nav */
 
+header {
+    position: relative;
+}
+
+.headerNav {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    min-width: 360px;
+    margin: auto;
+}
+
+.headerNav img {
+    width: 150px;
+}
 
 
 
+
+
+@media screen and (min-width: 768px) {
+
+
+    
+}
 
 
 

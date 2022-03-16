@@ -1,7 +1,7 @@
         <nav class="headerNav">
             <div class="headerNav">
                 <!--<img src="https://fakeimg.pl/150x50/">-->
-                <img src="src/assets/logo/sanstitre.png" alt="">
+                <img src="src/assets/logo/sanstitre.png" alt="logo We love Lyon">
             </div>
             <ul>
                 <li><a href="/src/index.php">Accueil</a></li>

@@ -10,7 +10,9 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="./src/css/css_init.css">
+
+    <link rel="stylesheet" href="src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="src/css/css_init.css">
     <title><!-- Titre à changer --></title>
 </head>
 
@@ -18,7 +20,7 @@
 
     <header>
         
-        <!-- place pour le _header_nav.php -->
+        <?php include("src/_header_nav.php"); ?>
 
     </header>
 

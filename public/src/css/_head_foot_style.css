@@ -43,23 +43,10 @@ a {
     color: var(--colorLight);
 }
 
-
-
-
-
-@media screen and (min-width: 768px) {
-
-
-    
-}
-
-
-
-
-
 /* _footer */
 footer {
     height: 60px;
+    min-width: 360px;
     color: var(--colorLight);
     background-color: var(--colorDark);
 }
@@ -68,3 +55,35 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+.text_footer h3 {
+    font-size: 1.1rem;
+}
+.text_footer p {
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+
+
+
+/* _footer */
+footer {
+    height: 60px;
+}
+.text_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.text_footer h3 {
+    font-size: 1.2rem;
+}
+.text_footer p {
+    font-size: 1rem;
+}
+}
+
+
+
+
+

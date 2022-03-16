@@ -1,13 +1,14 @@
 /* Variables Assignation */
 
 :root {
-    --backgroundDarkNav: rgb(85, 84, 84);
+    --backgroundDarkNav: #101010;
     --backgroundLightNav: lightgray;
-    --colorDark: rgb(85, 84, 84);
+    --colorDark: #101010;
     --colorLight: lightgray;
 }
 
 body {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }

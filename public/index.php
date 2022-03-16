@@ -20,9 +20,9 @@
 
     <header>
         <?php include("src/_header_nav.php"); ?>
-
-        <h1>aaa</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati pariatur modi iusto nemo sed nesciunt, recusandae distinctio mollitia laborum quae quam temporibus sint neque expedita illum harum ex aliquid. Adipisci.</p>
+        <div class="headerTitle">
+            <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>
+        </div>
     </header>
 
     <footer>

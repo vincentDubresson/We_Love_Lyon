@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/hotels_restaurants.css">
     <link rel="stylesheet" href="./css/_head_foot_style.css">
     <link rel="stylesheet" href="./css/css_init.css">
-    <title><!-- Titre à changer --></title>
+    <title>Les hôtels et restaurants incontournables de Lyon</title>
 </head>
 
 <body>
@@ -23,7 +23,15 @@
         <?php include("./_header_nav.php"); ?>
     </header>
 
-    <h1>Les hôtels et restaurants incontournable de Lyon</h1>
+    <div class="photos">
+
+            <div class="header-type">
+                <p>On mange quoi ?</p>
+                <p>Du jésus, des bugnes, de la rosette, des coussins, des quenelles, de la cervelle de canut ..? </p>
+                <p>Et si on se faisait un petit Bouchon ?</p>
+            </div> 
+
+    <h1>Les hôtels et restaurants incontournables de Lyon</h1>
 
     <div>
 

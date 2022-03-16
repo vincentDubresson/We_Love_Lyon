@@ -1,0 +1,14 @@
+.header-type{
+    background-image: url("../assets/picture/table-g0.jpg");
+    background-size: cover;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 60px;
+    max-width: 100%;
+    height: 190px;
+}
+.header-type p {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  padding-left: 20%;
+}

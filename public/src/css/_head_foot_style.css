@@ -1,8 +1,53 @@
 /* _header_nav */
 
+header {
+    position: relative;
+}
+
+.headerNavMin {
+    position: absolute;
+    bottom: -60px;
+    background-color: var(--backgroundDarkNav);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 5px;
+    width: 100vw;
+    height: 250px;
+    transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.headerNavMin:hover {
+   bottom: -250px; 
+}
+
+.headerList {
+    padding: 5px 10px;
+}
+
+.headerList li {
+    list-style: none;
+    text-align: center;
+    line-height: 2rem;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--colorLight);
+}
 
 
 
+
+
+@media screen and (min-width: 768px) {
+
+
+    
+}
 
 
 
@@ -12,7 +57,7 @@
 footer {
     height: 60px;
     color: white;
-    background-color:rgb(85, 84, 84) ;
+    background-color:rgb(85, 84, 84);
 }
 .text_footer {
     display: flex;

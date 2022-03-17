@@ -20,12 +20,13 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   z-index: 2;
 }
 
 .photo_description{
     width: 300px;
     height: 350px;
-    display: flex;*
+    display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 20px;
@@ -37,9 +38,9 @@
 .photo_text{
     position: absolute;
     width: 300px;
-    height: 60px;
+    height: 30px;
     text-decoration: none;
-    bottom: 0;
+    bottom: 8px;
     background-color: white;
     border: 1px solid black;
     border-radius: 0 0 10px 10px;
@@ -88,20 +89,14 @@ main{
 }
 
 .parent_description{
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;
-    max-width: 500px;
-    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
 }
 
 .img{
-
-    height: 550px;
-}
-
-.photo_text{
-
-    height: 50px;
+    max-width: 500px;
 }
 
 }

@@ -1,3 +1,5 @@
+/* HEADER */
+
 .headerTitle {
     display: flex;
     align-items: center;
@@ -8,4 +10,51 @@
     padding-top: 60px;
     max-width: 100%;
     height: 190px;
+}
+
+/* MAIN - ARTICLE */
+
+.mainBallad {
+    scroll-behavior: smooth;
+}
+
+.myMapsBallad {
+    display: block;
+    margin: auto;
+    border: none;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.journeyFloatLeft {
+    float: left;
+    padding: 0 5px;
+}
+
+.journeyFloatRight {
+    float: right;
+    padding: 0 5px;
+}
+
+.journey p {
+    text-align: justify;
+}
+
+.linksInPage {
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    
+    .introBallad {
+        max-width: 90%;
+        margin: auto;
+    }
+
 }

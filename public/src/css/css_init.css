@@ -8,11 +8,16 @@
 }
 
 body {
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+main {
+    margin: 0 10px;
+    
+}
 
 h1{
     text-align: center;

@@ -57,13 +57,24 @@
 }
 
 .card-button {
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    background-color: lightblue;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
+.card-button button {
+    background-color: var(--colorDark);
+    border: none;
+    border-radius: 5px 10px 5px 5px;
+    color: var(--colorLight);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:comic, sans-serif;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 
 @media screen and (min-width: 768px) {

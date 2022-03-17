@@ -21,16 +21,18 @@
     <header>
         <!-- place pour le _header_nav.php -->
         <?php include("./_header_nav.php"); ?>
-    </header>
 
-    <div class="photos">
+        <div class="photos">
 
             <div class="header-type">
                 <p>On mange quoi ?</p>
                 <p>Du jésus, des bugnes, de la rosette, des coussins, des quenelles, de la cervelle de canut ..? </p>
                 <p>Et si on se faisait un petit Bouchon ?</p>
             </div> 
-    
+
+        </div>
+    </header>
+
     <main>
         <h1>Les hôtels et restaurants incontournables de Lyon</h1>
         

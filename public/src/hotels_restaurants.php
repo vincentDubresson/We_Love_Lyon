@@ -33,90 +33,39 @@
             <h1>Les hôtels et restaurants incontournables de Lyon</h1>
         </section>
 
-        <section class="cards">              
-            <div class="card">
-                <div class="card-header">
-                <div class="card-img"></div>
-                </div>
-                <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
-                </div>
-            </div>
+        <section class="cards">
 
             <div class="card">
                 <div class="card-header">
-                <div class="card-img"></div>
+                    <div class="card-img"></div>
                 </div>
                 <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
+                    <h2>Le Bouchon des filles</h2>
+                    <div class="reservation-appeler-site">
+
+
+
+
+                    <button onclick="window.open('https://lebouchondesfilles.fr/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU3IiwidG9nZ2xlIjpmYWxzZX0%3D', '_blank');">Réserver</button>
+
+
+                    <button onclick="window.location.href = 'tel:+33478304044';">Appeler</button>
+
+
+
+                    <button onclick="window.open('https://lebouchondesfilles.fr/', '_blank');">Site Web</button>
+
+
+
+                    </div>
+                    <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
+                    <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
+                    <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.125609022505!2d4.827171215825589!3d45.76867287910574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb01f439fe73%3A0xc28debbb730b4077!2sLe%20Bouchon%20des%20Filles!5e0!3m2!1sfr!2sfr!4v1647521635797!5m2!1sfr!2sfr" width="100%" height="320px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>    
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-header">
-                <div class="card-img"></div>
-                </div>
-                <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                <div class="card-img"></div>
-                </div>
-                <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                <div class="card-img"></div>
-                </div>
-                <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                <div class="card-img"></div>
-                </div>
-                <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                <div class="card-img"></div>
-                </div>
-                <div class="card-body">
-                <h2 class="card-title">Le Bouchon des filles</h2>
-                <p>Téléphone: <a href="tel:+33478304044">04 78 30 40 44</a></p>
-                <p>Adresse: 20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon</p>
-                <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
-                </div>
-            </div>
         </section>
     </main>
 

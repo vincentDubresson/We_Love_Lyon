@@ -48,6 +48,10 @@
     padding: 10px 20px;
 }
 
+.card-body a {
+    color: initial;
+}
+
 .card-body h2 {
     margin: 10px 0px;
 }

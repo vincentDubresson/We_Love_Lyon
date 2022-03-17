@@ -68,8 +68,13 @@
             <h2 id="twoDaysBallad">Deuxième journée</h2>
             <iframe class="myMapsBallad" src="https://www.google.com/maps/d/embed?mid=1P0iR-xrCRzxUj_3u8U30WID8TiySdFzD&ehbc=2E312F" width="70%" height="350"></iframe>
             <div class="journey">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
+                <p><img class="journeyFloatLeft" src="https://via.placeholder.com/300x150" alt=""> - <em>MATIN</em> - Après une journée bien chargée, nous vous proposons un deuxième
+                moins éreintant. Votre début de journée mettra en avant le poumon de la ville de Lyon, le <strong>Parc de la Tête d'Or</strong>. 30mn, 1h ou 2h ! Libre à vous de flanez
+                à votre guise dans ce magnifique écrin de verdure. Par la suite, dirigez-vous sur les quais du Rhône, et descendez le long du fleuve. Vous arpentrez ainsi la célèbre <strong>Rive Droite du Rhône</strong>
+                qui a été totalement réaménagée dans les années 2000. Une fois arrivé à hauteur de la <em>Fosse aux Ours</em>, prenez quelques instants pour admirer le plus beau bâtiment
+                de la Presqu'île, classé au Patrimoine Mondial de l'Unesco : L'<strong>Hôtel Dieu</strong>. Jusqu'à la fin des années 2000, ce bâtiment recueillait un des plus gros hôpitaux
+                Lyonnais. À ce jour, il est devenu, en partie, un hôtel de luxe.</p>
+                <p>Traversez le Rhône par le <em>Pont de la Guillotière</em> afin de rejoindre la <strong>Place Bellecour</strong> et sa célèbre statue de Louis XIV (14 et non croix baton V !)</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>

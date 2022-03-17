@@ -1,7 +1,7 @@
         <nav class="headerNavMin headerNavMax">
             <div class="headerNavLogo">
-                <img src="https://fakeimg.pl/150x50/">
-                <!-- <img src="src/assets/logo/sanstitre.png" alt="logo We love Lyon">-->
+                <!--<img src="https://fakeimg.pl/150x50/">-->
+                <<img src="src/assets/logo/logofinal.png" alt="logo We love Lyon">
             </div>
             <ul class="headerNavList">
                 <li class="headerNavLinks"><a href="index.php">Accueil</a></li>

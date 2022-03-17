@@ -21,6 +21,7 @@
     <header>
         <?php include("src/_header_nav.php"); ?>
         <div class="headerTitle">
+            <img src="src/assets/logo/logofinal.png" alt="">
             <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>
         </div>
     </header>

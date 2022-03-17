@@ -34,10 +34,11 @@
     </header>
 
     <main>
-        <h1>Les hôtels et restaurants incontournables de Lyon</h1>
-        
-        <div class="cards">
-            
+        <section class="introduction">
+            <h1>Les hôtels et restaurants incontournables de Lyon</h1>
+        </section>
+
+        <section class="cards">              
             <div class="card">
                 <div class="card-header">
                 <div class="card-img"></div>
@@ -121,9 +122,7 @@
                 <p><a href="https://lebouchondesfilles.fr/" target="_blank">Site Web</a></p>
                 </div>
             </div>
-
-        </div>
-
+        </section>
     </main>
 
     <footer>

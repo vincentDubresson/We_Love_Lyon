@@ -22,89 +22,101 @@
         
         <?php include("./_header_nav.php"); ?>
         <div class="header_type">
-                <p> Le saviez -vous ? </br>
-                 Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !
+            <p> Le saviez -vous ? </br></br>
+            Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !
         </div>
 
     </header>
 
     <main>
 
-    <div class="photos">
-
-      
-            
-        <h1> Sites mémorables</h1>
+        <section class="intoduction>">
+            <h1>Sites mémorables</h1>
+            <p>Venez découvrir les plus beaux sites de Lyon. Si vous avez peu de temps, voici une petite collection des sites à ne pas manquer !</p>
+        </section>
 
         <div class="parent_description">    
             <div class="photo_description">
                 <img class="img" src="assets/picture/grande_roue.jpg" alt="place_bellecour"/>
                 <div class="photo_text">
-                <p class="title_photo">La place Bellecour</p>
-                <p class="content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
+                    <p class="title_photo">La place Bellecour</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
                 </div>
             </div>
 
             <div class="photo_description">
                 <img class="img" src="assets/picture/musée_confluence.jpg" alt="musée_confluence"/>
                 <div class="photo_text">
-                <p class="title_photo">Le musée des confluences</p>
-                <p class="content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
+                    <p class="title_photo">Le musée des confluences</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
                 </div>
             </div>   
 
             <div class="photo_description">
                 <img class="img" src="assets/picture/parc.jpg" alt="place_tete_dor"/>
                 <div class="photo_text">
-                <p class="title_photo">Le parc de la tête d'or</p>
-                <p class="content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
+                    <p class="title_photo">Le parc de la tête d'or</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
                 </div>
             </div>
 
             <div class="photo_description">
                 <img class="img" src="assets/picture/amphitheatre.jpg" alt="amphitheatre"/>
                 <div class="photo_text">
-                <p class="title_photo">L'amphithéâtre gallo-romain</p>
-                <p class="content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
+                    <p class="title_photo">L'amphithéâtre gallo-romain</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
                 </div>
             </div>
 
             <div class="photo_description">
                 <img class="img" src="assets/picture/cathedrale.jpg" alt="cathedrale"/>
                 <div class="photo_text">
-                <p class="title_photo">La cathédrale Saint-Jean</p>
-                <p class="content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
+                    <p class="title_photo">La cathédrale Saint-Jean</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
+                </div>
+            </div>
+
+            <div class="photo_description">
+                <img class="img" src="assets/picture/pentes.jpg" alt="place_bellecour"/>
+                <div class="photo_text">
+                    <p class="title_photo">Les pentes de la Croix-Rousse</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
                 </div>
             </div>
 
             <div class="photo_description">
                 <img class="img" src="assets/picture/fourviere.jpg" alt="fourviere"/>
                 <div class="photo_text">
-                <p class="title_photo">Fourvière</p>
-                <p class="content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                </p>
+                    <p class="title_photo">Fourvière</p>
+                    <p class="content">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    </p>
                 </div>
             </div> 
-
         </div>
+
     </main>
+
     <footer>
 
         <?php include('./_footer.php'); ?>
 
     </footer>
+
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
+
 </body>
 
 </html>

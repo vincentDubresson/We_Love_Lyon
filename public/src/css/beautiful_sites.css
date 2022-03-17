@@ -1,7 +1,7 @@
 
 /*Header Photo static*/
 .header_type{
-    background-image: ".assets/picture/crayon.jpg";
+    background-image: url("../assets/picture/crayon.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -9,15 +9,18 @@
     padding-top: 60px;
     max-width: 100%;
     height: 190px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
-.photos{
+.parent_description{
    text-decoration: none;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   z-index: 2;
 }
 
 .photo_description{
@@ -35,15 +38,18 @@
 .photo_text{
     position: absolute;
     width: 300px;
-    height: 60px;
+    height: 30px;
     text-decoration: none;
-    bottom: 0;
+    bottom: 8px;
     background-color: white;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     transition: 0.3s;
     overflow: hidden;
     margin-bottom: 20px;
+    opacity: 0.6;
+    font-weight: bold;
+    padding-top: 15px;
 }
 
 .photo_text:hover{
@@ -68,31 +74,29 @@
 
 .img{
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px;
     width: 300px;
     height: 350px;
 }
 
+
 /*Tablet and computer*/
 @media screen and (min-width: 768px){
-.header_type{
-    display: none;
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .parent_description{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
 }
 
 .img{
-    width: 500px;
-    height: 550px;
-}
-
-.photo_text{
-    width: 500px;
-    height: 50px;
+    max-width: 500px;
 }
 
 }

@@ -9,7 +9,7 @@ header {
 }
 
 .headerNavMin {
-    position: absolute;
+    position: fixed;
     top: -195px;
     background-color: var(--backgroundDarkNav);
     display: flex;

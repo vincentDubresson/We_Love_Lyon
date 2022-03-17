@@ -9,7 +9,7 @@
     <meta name="author" content="Anthony, Cidjie, Théo and Vincent, Wcs 2022">
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
-    <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
+    <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, balade, visite, indispensable, wild, code, school">
     <link rel="stylesheet" href="css/_head_foot_style.css">
     <link rel="stylesheet" href="css/css_init.css">
     <link rel="stylesheet" href="css/lyon_ballad.css">
@@ -30,10 +30,10 @@
     <main class = "mainBallad">
 
         <section class="introduction introBallad">
-            <h1>Ballade sur 1 ou 2 jours</h1>
+            <h1>Balade sur 1 ou 2 jours</h1>
             <p>Même si Lyon est une grande ville, elle n'en reste pas moins à taille humaine. Vous pouvez tout faire à pied, même si attention : quelques fois, ça grimpe !</p>
             <p>Nous vous proposons deux parcours qui vous permettrons de visiter Lyon, en <a class="linksInPage" href="#oneDayBallad">un jour</a> ou <a class="linksInPage" href="#twoDaysBallad">deux jours</a>.</p>
-            <p>Bonne ballade !</p>
+            <p>Bonne balade !</p>
         </section>
 
         <article>
@@ -47,7 +47,7 @@
                 d'une des <strong>plus belles vues de la Ville</strong>. Poursuivez votre descente. Attardez-vous quelques minutes dans le jardin
                 des plantes et son <strong>Amphithéatre des Trois Gaules</strong>, puis redescendez sur le <em>Quai Saint Vincent</em> afin d'admirer
                 le célèbre <strong>Mur des Lyonnais</strong>.</p>
-                <p><img class="journeyFloatRight" src="https://via.placeholder.com/300x150" alt=""> - Poursuivez-votre ballade, en vous attardant dans le <strong>Vieux Lyon</strong>, quartier historique de la Ville. Perdez-vous dans ces
+                <p><img class="journeyFloatRight" src="https://via.placeholder.com/300x150" alt=""> - Poursuivez-votre balade, en vous attardant dans le <strong>Vieux Lyon</strong>, quartier historique de la Ville. Perdez-vous dans ces
                 ruelles, si le coeur vous en dit, prenez le temps de manger une glace chez Terre Adélice. Vous pouvez également visiter le <strong>Musée de la miniature
                 et du Cinéma</strong>, ou encore arpenter la nef de la <strong>Cathédrale Saint-Jean</strong>.</p>
                 <p> - Terminez cette matinée bien chargée en dégustant la meilleure quenelle de Lyon, au <strong>Café du Soleil</strong>.</p>
@@ -59,7 +59,7 @@
                 qu'en montée ! Une fois arrivés vers la <strong>Gare Saint Paul</strong>, retraversez la Saône afin de vous perdre aux abords de la <strong>Place des Terreaux</strong>">
                 Profitez-en pour boire une pinthe dans l'un des pubs les plus réputés de la <em>Rue Sainte Catherine</em> : <strong>Le Shamrock</strong>.</p>
                 <p><img class="journeyFloatRight" src="https://via.placeholder.com/300x150" alt=""> - Cette journée se termine bientôt. Prenez la célèbre <em>Rue de la République</em> (Rue de la Ré pour les Lyonnais) jusqu'à trouver la <em>rue Mercière</em>,
-                petite ruelle connue des locaux pour ses bars et restaurants. Une fois que vous aurez diné, terminez cette ballade d'une journée en admirant la vue de la colline de Fourvière
+                petite ruelle connue des locaux pour ses bars et restaurants. Une fois que vous aurez diné, terminez cette balade d'une journée en admirant la vue de la colline de Fourvière
                 depuis la <strong>Passerelle du Palais de Justice</strong>.</p>
             </div>
         </article>

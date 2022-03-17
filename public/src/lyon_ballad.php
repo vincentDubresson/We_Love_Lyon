@@ -51,7 +51,16 @@
                 ruelles, si le coeur vous en dit, prenez le temps de manger une glace chez Terre Adélice. Vous pouvez également visiter le <strong>Musée de la miniature
                 et du Cinéma</strong>, ou encore arpenter la nef de la <strong>Cathédrale Saint-Jean</strong>.</p>
                 <p> - Terminez cette matinée bien chargée en dégustant la meilleure quenelle de Lyon, au <strong>Café du Soleil</strong>.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
+                <p><img class="journeyFloatLeft" src="https://via.placeholder.com/300x150" alt=""> - <em>APRÈS-MIDI</em> - Après ce repas succuleux, il
+                est l'heure de faire un peu d'exercice qui vous aiderons à la digestion ! Prenez la <em>Montée du Gourguillon</em> afin de rejoindre les 
+                hauteurs de la <strong>Colline de Fourvière</strong>. Arrêtez vous un instant pour visiter gratuitement les vestiges des célèbres <strong>Théatres Gallo-Romains</strong>, puis
+                prenez le temps de visiter la magnifique <strong>Basilique Notre Dame de Fourvière</strong> avant de profiter du plus beau panorama lyonnais.</p>
+                <p> - Par la suite, redescendez de la colline en emprunt la <em>Montée Nicolas de Lange</em>. Vous verrez que ce passage est plus intéressant en descente
+                qu'en montée ! Une fois arrivés vers la <strong>Gare Saint Paul</strong>, retraversez la Saône afin de vous perdre aux abords de la <strong>Place des Terreaux</strong>">
+                Profitez-en pour boire une pinthe dans l'un des pubs les plus réputés de la <em>Rue Sainte Catherine</em> : <strong>Le Shamrock</strong>.</p>
+                <p><img class="journeyFloatRight" src="https://via.placeholder.com/300x150" alt=""> - Cette journée se termine bientôt. Prenez la célèbre <em>Rue de la République</em> (Rue de la Ré pour les Lyonnais) jusqu'à trouver la <em>rue Mercière</em>,
+                petite ruelle connue des locaux pour ses bars et restaurants. Une fois que vous aurez diné, terminez cette ballade d'une journée en admirant la vue de la colline de Fourvière
+                depuis la <strong>Passerelle du Palais de Justice</strong>.</p>
             </div>
         </article>
 

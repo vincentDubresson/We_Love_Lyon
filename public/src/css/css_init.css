@@ -13,8 +13,21 @@ body {
     padding: 0;
 }
 
+
 h1{
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+
+    main {
+        margin: 0 100px;
+    }
+
 }

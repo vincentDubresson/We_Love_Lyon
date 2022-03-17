@@ -21,7 +21,10 @@
         <!-- place pour le _header_nav.php -->
 
     </header>
-
+    <section>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1k6HnWGIYafP2l3RmQTJobhyy5RTvUOwR&ehbc=2E312F" width="350" height="350"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1P0iR-xrCRzxUj_3u8U30WID8TiySdFzD&ehbc=2E312F" width="350" height="350"></iframe>
+    </section>
 
     <!-- place pour le _footer.php -->
 

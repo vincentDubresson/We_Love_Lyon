@@ -1,11 +1,17 @@
 .headerTitle {
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    background-image: url("../../src/assets/picture/crayon.jpg");
+    background-color: var(--backgroundLightNav);
+    /*background-image: url("../../src/assets/picture/crayon.jpg");*/
     background-size: cover;
     margin-top: 0;
     padding-top: 60px;
     max-width: 100%;
     height: 190px;
+}
+
+.headerTitle img {
+    width: 80%;
 }

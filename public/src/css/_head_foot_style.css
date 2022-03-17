@@ -8,6 +8,10 @@ header {
     position: relative;
 }
 
+.headerNavLogo img {
+    width: 150px;
+}
+
 .headerNavMin {
     position: fixed;
     top: -195px;

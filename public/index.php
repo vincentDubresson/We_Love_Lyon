@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="src/css/index.css">
     <link rel="stylesheet" href="src/css/_head_foot_style.css">
     <link rel="stylesheet" href="src/css/css_init.css">
-    <title><!-- Titre à changer --></title>
+    <title>Présentation</title>
 </head>
 
 <body>
@@ -24,6 +24,21 @@
             <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>
         </div>
     </header>
+
+    <main>
+        <h1> Présentation</h1>
+        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+
+        <div id="carrousel">
+
+            <div id="container">
+            </div>
+
+            <img src="src/assets/logo/bouton.jpeg" class="bouton" id="d"/>
+            <img src="src/assets/logo/bouton.jpeg" class="bouton" id="g"/>
+         </div>
+
+    </main>
 
     <footer>
         <?php include('./src/_footer.php'); ?>

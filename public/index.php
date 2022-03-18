@@ -95,7 +95,9 @@
         }
 
     </script>
+    <script src="src/js/index_script.js"></script>
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
+
 </body>
 
 </html>

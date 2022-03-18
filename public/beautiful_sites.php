@@ -10,9 +10,9 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="css/css_init.css">
-    <link rel="stylesheet" href="css/_head_foot_style.css">
-    <link rel="stylesheet" href="css/beautiful_sites.css">
+    <link rel="stylesheet" href="src/css/css_init.css">
+    <link rel="stylesheet" href="src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="src/css/beautiful_sites.css">
     <title>Les sites mémorables - We Love Lyon</title>
 </head>
 
@@ -20,7 +20,7 @@
 
     <header>
         
-        <?php include("./_header_nav.php"); ?>
+        <?php include("_header_nav.php"); ?>
         <div class="header_type">
             <p> Le saviez -vous ? </br></br>
             Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !
@@ -111,7 +111,7 @@
 
     <footer>
 
-        <?php include('./_footer.php'); ?>
+        <?php include('_footer.php'); ?>
 
     </footer>
 

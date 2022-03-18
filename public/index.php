@@ -30,7 +30,9 @@
         <h1> Présentation</h1>
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
 
-    <div id="carroussel">
+        <img src="./src/assets/carroussel_pictures/img2.jpg" alt="Photo_de_Lyon">
+
+    <!--<div id="carroussel">
 
         <div id="container">
         </div>
@@ -39,7 +41,7 @@
         <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
         <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
     
-    </div>
+    </div>-->
 
 
     </main>

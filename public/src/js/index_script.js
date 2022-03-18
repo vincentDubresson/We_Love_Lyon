@@ -12,7 +12,7 @@ button.addEventListener('click', function() {
 //Script pour le carroussel
 
 /*Creation des éléments du DOM dont j'ai besoin pour appeler le carroussel*/
-document.main.onload=function(){
+/*document.main.onload=function(){
     const nbr=10;
     const p=0;
 
@@ -23,14 +23,14 @@ document.main.onload=function(){
         for(i=1; i<nbr;i++){
             div = document.createElement("div");
             div.className="photo";
-            div.style.backgroundImage="url('src/assets/carroussel_pictures/img"+i+".jpg')";
+            div.style.backgroundImage="url('../../src/assets/carroussel_pictures/img"+i+".jpg')";
             container.appendChild(div);
         }
     afficherMasquer();
-}
+}*/
 
 /*Fonction de clic pour chaque bouton*/
-    g.onclick=function(){
+/*   g.onclick=function(){
         if(p > - nbr +1 ) p--;
         container.style.transform="translate("+p*360+"px)";
         container.style.transition="all 0.5s ease";
@@ -42,10 +42,10 @@ document.main.onload=function(){
         container.style.transform="translate("+p*360+"px)";
         container.style.transition="all 0.5s ease";
         afficherMasquer();
-        }
+        }*/
 
 /*Fonction pour afficher ou masquer le bouton pour changer les images*/
-    function afficherMasquer(){
+/*   function afficherMasquer(){
         if(p === -nbr + 1)
             g.style.visibility="hidden";
         else
@@ -55,5 +55,5 @@ document.main.onload=function(){
             d.style.visibility="hidden";
         else
             d.style.visibility="visible";
-        }
+        }*/
 

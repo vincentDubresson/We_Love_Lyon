@@ -10,9 +10,9 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, balade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="css/_head_foot_style.css">
-    <link rel="stylesheet" href="css/css_init.css">
-    <link rel="stylesheet" href="css/lyon_ballad.css">
+    <link rel="stylesheet" href="src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="src/css/css_init.css">
+    <link rel="stylesheet" href="src/css/lyon_ballad.css">
     <title><!-- Titre à changer --></title>
 </head>
 
@@ -74,10 +74,14 @@
                 qui a été totalement réaménagée dans les années 2000. Une fois arrivé à hauteur de la <em>Fosse aux Ours</em>, prenez quelques instants pour admirer le plus beau bâtiment
                 de la Presqu'île, classé au Patrimoine Mondial de l'Unesco : L'<strong>Hôtel Dieu</strong>. Jusqu'à la fin des années 2000, ce bâtiment recueillait un des plus gros hôpitaux
                 Lyonnais. À ce jour, il est devenu, en partie, un hôtel de luxe.</p>
-                <p>Traversez le Rhône par le <em>Pont de la Guillotière</em> afin de rejoindre la <strong>Place Bellecour</strong> et sa célèbre statue de Louis XIV (14 et non croix baton V !)</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis nesciunt necessitatibus, molestias doloremque reprehenderit aliquam voluptate nulla repellat delectus architecto modi ut non, alias quasi vero perspiciatis natus sit.</p>
+                <p>Traversez le Rhône par le <em>Pont de la Guillotière</em> afin de rejoindre la <strong>Place Bellecour</strong> et sa célèbre statue de Louis XIV (14 et non croix baton V !).
+                Vous pouvez vous permettre une petite pause repas dans un des restaurants de la <em>rue des Marronniers</em> avant de reprendre votre périple.</p>
+                <p><img class="journeyFloatRight" src="https://via.placeholder.com/300x150" alt=""> - <em>APRÈS-MIDI</em> Dirigez vous vers la <em>rue Victor Hugo</em>, une artère très commerçante du 2ème Arrondissement. Dans le prolongement, vous accèderez à la <strong>Place Carnot</strong>. Célèbre en période de fête pour son marché de Noël, cette petite
+                place abrite notamment deux statues en l'honneur de <strong>La République</strong> et de <strong>Napoléon 1er</strong>.</p>
+                <p> - Dès à présent, traverser la <strong>Gare de Perrache</strong> afin de rejoindre le <em>Cours Charlemagne</em>. En continuant vers le sud, vous arriverez dans
+                tout nouveau quartier de la <strong>Confluence</strong>. Ce fût, à l'époque, le plus gros marché alimentaire professionnel de la Région Rhône-Alpes, équivalent à Rungis en Région Parisienne. 
+                Aujourd'hui, vous trouverez notamment le <strong>Centre Commercial de Confluence</strong> et son port de plaisance. D'ici, nous vous proposons de monter à bord des nouveaux bâteaux mouche, qui vous
+                permettrons de finir ces deux jours en beauté, par une remontée de la Saône, à la découverte de Lyon sur l'eau. Ces bateaux vous déposerons à deux pas du Vieux Lyon et du Centre Ville.</p>
             </div>
         </article>
     </main>

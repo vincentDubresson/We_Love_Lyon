@@ -8,8 +8,12 @@ header {
     position: relative;
 }
 
+.headerNavLogo img {
+    width: 150px;
+}
+
 .headerNavMin {
-    position: absolute;
+    position: fixed;
     top: -195px;
     background-color: var(--backgroundDarkNav);
     display: flex;
@@ -21,6 +25,7 @@ header {
     width: 100vw;
     height: 250px;
     transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
 }
 
 .headerNavButton {
@@ -68,7 +73,7 @@ footer {
     align-items: center;
 }
 .text_footer h3 {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
 }
 .text_footer p {
     font-size: 0.7rem;

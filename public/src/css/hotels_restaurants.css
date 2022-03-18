@@ -48,18 +48,38 @@
     padding: 10px 20px;
 }
 
+.card-body a {
+    color: initial;
+}
+
 .card-body h2 {
     margin: 10px 0px;
 }
 
-.card-button {
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    background-color: lightblue;
+.card-body iframe{
     width: 100%;
+    height: 250px;
 }
 
+.card-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-button button {
+    background-color: var(--colorDark);
+    border: none;
+    border-radius: 5px 10px 5px 5px;
+    color: var(--colorLight);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:comic, sans-serif;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 
 @media screen and (min-width: 768px) {

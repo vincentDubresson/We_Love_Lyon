@@ -41,7 +41,7 @@
                 <div class="photo_text">
                     <p class="title_photo">La place Bellecour</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.lyon-france.com/je-decouvre-lyon/sites-et-monuments/Sites-et-monuments-remarquables/La-Place-Bellecour', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Le musée des confluences</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.museedesconfluences.fr/fr', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>   
@@ -61,7 +61,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Le parc de la tête d'or</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.lyon.fr/lieu/parcs/parc-de-la-tete-dor', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 <div class="photo_text">
                     <p class="title_photo">L'amphithéâtre gallo-romain</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://lugdunum.grandlyon.com/fr/', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                 <div class="photo_text">
                     <p class="title_photo">La cathédrale Saint-Jean</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.lyon.fr/lieu/moyen-age/cathedrale-saint-jean', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Les pentes de la Croix-Rousse</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.polville.lyon.fr/des-quartiers-lechelle-de-la-ville/les-territoires/quartiers-de-centre-ancien/les-pentes-de-la-croix', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Fourvière</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.fourviere.org/fr/', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div> 

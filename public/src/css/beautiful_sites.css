@@ -13,7 +13,6 @@
     text-align: center;
 }
 
-
 .parent_description{
    text-decoration: none;
    display: flex;
@@ -42,7 +41,6 @@
     text-decoration: none;
     bottom: 8px;
     background-color: white;
-    border: 1px solid black;
     border-radius: 0 0 10px 10px;
     transition: 0.3s;
     overflow: hidden;
@@ -50,6 +48,7 @@
     opacity: 0.6;
     font-weight: bold;
     padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .photo_text:hover{
@@ -58,7 +57,7 @@
 
 .photo_text .title_photo{
     margin: 0;
-    padding: 0 5px 5px 5px;
+    padding-top: 5px;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -67,8 +66,7 @@
 }
 
 .content{
-    margin-top: 0;
-    padding: 5px;
+    margin-top: 15px;
     text-align: justify;
 }
 
@@ -79,13 +77,22 @@
     height: 350px;
 }
 
+button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    vertical-align: middle;
+}
+
 
 /*Tablet and computer*/
 @media screen and (min-width: 768px){
 
 main{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .parent_description{
@@ -97,6 +104,10 @@ main{
 
 .img{
     max-width: 500px;
+}
+
+.content{
+    margin-top: 10px;
 }
 
 }

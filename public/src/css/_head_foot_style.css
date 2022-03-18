@@ -28,21 +28,15 @@ header {
     z-index: 1;
 }
 
-.headerNavButton {
-    background: none;
-    border: none;
-    position: absolute;
-    left: 25px;
-    bottom: 13px;
+.navDown {
+    top: 0;
 }
 
-.headerNavButton img {
-    width: 25px;
-}
 
 /*
 .headerNavMin:hover {
    top: 0; 
+
 }*/
 
 .headerNavList {
@@ -59,6 +53,26 @@ header {
 a {
     text-decoration: none;
     color: var(--colorLight);
+}
+
+/* Button */
+
+.headerNavButton  {
+    background: none;
+    border: none;
+    position: absolute;
+    left: 25px;
+    bottom: 13px;
+    transition: 0.5s;
+}
+
+
+.headerNavButton img {
+    width: 25px;
+}
+
+.buttonDown {
+    transform: rotate(180deg);
 }
 
 

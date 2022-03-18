@@ -10,10 +10,10 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="src/css/hotels_restaurants.css">
-    <link rel="stylesheet" href="src/css/_head_foot_style.css">
-    <link rel="stylesheet" href="src/css/css_init.css">
-    <title>Les hôtels et restaurants incontournables de Lyon</title>
+    <link rel="stylesheet" href="./src/css/restaurants.css">
+    <link rel="stylesheet" href="./src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="./src/css/css_init.css">
+    <title>Les restaurants incontournables de Lyon</title>
 </head>
 
 <body>
@@ -30,7 +30,8 @@
 
     <main>
         <section class="introduction">
-            <h1>Les hôtels et restaurants incontournables de Lyon</h1>
+            <h1>Les restaurants incontournables de Lyon</h1>
+            <p>Une petite faim, une grosse faim, affamez !!! Sur cette page retrouvez les bonnes adresses pour découvrir la meilleure cuisine au monde. Dans la ville des plus grands chefs.</p>
         </section>
 
         <section class="cards">
@@ -225,6 +226,7 @@
     </footer>
 
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
+    <script src="./src/js/index_script.js"></script>
 </body>
 
 </html>

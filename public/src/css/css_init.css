@@ -7,8 +7,13 @@
     --colorLight: lightgray;
 }
 
+/* Import Police */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 body {
-    
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,103 +24,29 @@ main {
     
 }
 
+.introduction {
+    max-width: 90%;
+    margin: auto;
+}
+
 article {
     overflow: hidden;
 }
 
 h1{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 35px;
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
 }
 
-/*CSS du Carroussel*/
-#carroussel{
-    margin-top: 50px;
-    width: 360px;
-    height: 360px;
-    border:solid 4 px white;
-    box-shadow: 0 0 14px rgba(0,0,0,0.3);
-    position: relative;
-}
-
-#container{
-    width: 360px;
-    height: 360px;
-}
-
-.photo{
-    width: 360px;
-    height: 360px;
-    margin: 0;
-    display: inline-block;
-    background-size: cover;
-}
-
-.bouton{
-    position: absolute;
-    width: 30px;
-    cursor: pointer;
-    top: 150px;
-}
-
-#g{
-    left: 0;
-    opacity: 0.4;
-    transform: rotate(0deg);
-    transition:all 0.3s ease;
-}
-
-#d{
-    right: 0;
-    opacity: 0.4;
-    transform: rotate(180deg);
-    transition:all 0.3s ease;
-}
-
-#g:hover{
-    transform: rotate(0deg) scale(1.1);
-    opacity: 1;
-    transition:all 0.3s ease;
-}
-
-#d:hover{
-    transform: rotate(180deg) scale(1.1);
-    opacity: 1;
-    transition:all 0.3s ease;
-}
 
 
 @media screen and (min-width: 768px) {
 
     main {
         margin: 0 100px;
-    }
-
-    /*CSS Carroussel*/
-    #carroussel{
-        margin: 100px;
-        width: 900px;
-        height: 500px;
-    }
-    
-    #container{
-        width: 900px;
-        height: 500px;
-    }
-    
-    .photo{
-        width: 900px;
-        height: 500px;
-    }
-    
-    .bouton{
-        width: 40px;
-        top : 200px
-    }
-    
-    .photo{
-       display: flex;
     }
 
 }

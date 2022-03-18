@@ -10,6 +10,6 @@
                 <li class="headerNavLinks"><a href="src/lyon_ballad.php">Balades</a></li>
                 <li class="headerNavLinks"><a href="src/contact.php">Contact</a></li>
             </ul>
-            <button class="headerNavButton"><img src="src/assets/logo/icons8-chevron-bas-24.png"></button>
+            <button class="headerNavButton"><a><img src="src/assets/logo/chevronLight.png"></a></button>
             <!-- Change here the height of the button picture ==> 36px.-->
         </nav> 

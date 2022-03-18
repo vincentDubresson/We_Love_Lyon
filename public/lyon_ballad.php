@@ -29,7 +29,7 @@
     </header>
     <main class = "mainBallad">
 
-        <section class="introduction introBallad">
+        <section class="introduction">
             <h1>Balade sur 1 ou 2 jours</h1>
             <p>Même si Lyon est une grande ville, elle n'en reste pas moins à taille humaine. Vous pouvez tout faire à pied, même si attention : quelques fois, ça grimpe !</p>
             <p>Nous vous proposons deux parcours qui vous permettrons de visiter Lyon, en <a class="linksInPage" href="#oneDayBallad">un jour</a> ou <a class="linksInPage" href="#twoDaysBallad">deux jours</a>.</p>

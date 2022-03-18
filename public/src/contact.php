@@ -38,17 +38,23 @@
         <section class="introduction">
             <h1>Contacter l'équipe We Love Lyon</h1>
         </section>
-
+        
         <div class="container">
     <div class="contactform">
         <form>
             <h2> Nous contacter </h2>
-            <input type="email" placeholder="@" required>
+            <input class="fromleft" type="email" placeholder="@" required>
             <input type="text" placeholder="Nom" required>
-            <input class="bigtextinput"type="text" placeholder="Message" required>
+            <input class="bigtextinput" type="text" placeholder="Message" required>
+            <input class="submitbuttn" type="submit" placeholder="Envoyer">
              </form>
-        
-         </form>    
+
+         </form>
+
+
+    </div>
+    </div>
+
     </main>
 
     <footer>

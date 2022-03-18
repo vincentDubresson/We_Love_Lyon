@@ -29,6 +29,7 @@
     <main>
         <section class="introduction">
             <h1>Les hôtels incontournables de Lyon</h1>
+            <p>Visiter Lyon c'est bien, c'est merveilleux. Mais il faut bien recharger les batteries. Sur cette page retrouvez les bonnes adresses pour un sommeil réparateur.</p>
         </section>
 
         <section class="cards">

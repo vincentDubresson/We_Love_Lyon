@@ -14,8 +14,8 @@ header {
 
 .headerNavMin {
     position: fixed;
-    top: -195px;
-    background-color: var(--backgroundDarkNav);
+    top: -230px;
+    background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 1));
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -23,26 +23,20 @@ header {
     margin: auto;
     padding-bottom: 5px;
     width: 100vw;
-    height: 250px;
+    height: 285px;
     transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
     z-index: 1;
 }
 
-.headerNavButton {
-    background: none;
-    border: none;
-    position: absolute;
-    left: 25px;
-    bottom: 13px;
+.navDown {
+    top: 0;
 }
 
-.headerNavButton img {
-    width: 25px;
-}
 
 /*
 .headerNavMin:hover {
    top: 0; 
+
 }*/
 
 .headerNavList {
@@ -59,6 +53,26 @@ header {
 a {
     text-decoration: none;
     color: var(--colorLight);
+}
+
+/* Button */
+
+.headerNavButton  {
+    background: none;
+    border: none;
+    position: absolute;
+    left: 25px;
+    bottom: 13px;
+    transition: 0.5s;
+}
+
+
+.headerNavButton img {
+    width: 25px;
+}
+
+.buttonDown {
+    transform: rotate(180deg);
 }
 
 

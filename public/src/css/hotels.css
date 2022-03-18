@@ -1,11 +1,14 @@
 .header-type{
-    background-image: url("../assets/picture/table-g0.jpg");
+    background-image: url("../assets/picture/lyonnight.jpg");
     background-size: cover;
+    background-position: center;
     align-items: center;
     margin-top: 0;
     padding-top: 60px;
     max-width: 100%;
     height: 230px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .header-type p {
@@ -39,7 +42,7 @@
     border-radius: 10px 10px 0 0;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/picture/lebouchondesfilles2.jpg");
+    background-image: url("../assets/picture/lyon-hoteldieu.jpg");
     height: 200px;
     width: 100%;
 }
@@ -94,7 +97,7 @@
 .header-type p {
     margin-top: -0.5rem;
     margin-bottom: 1.5rem;
-    padding-left: 30%;
+    padding-left: 25%;
     font-size: 1.8rem;
     }
 

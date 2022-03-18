@@ -15,7 +15,7 @@ header {
 .headerNavMin {
     position: fixed;
     top: -195px;
-    background-color: var(--backgroundDarkNav);
+    background: linear-gradient(rgba(16, 16, 16, 0.9), rgba(16, 16, 16, 0.5));
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;

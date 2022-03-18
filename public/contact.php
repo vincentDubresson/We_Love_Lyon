@@ -54,7 +54,13 @@
 
     </div>
     </div>
-
+    <div class="vertical">
+    </div> 
+    <div class="map-responsive"> 
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1647596668820!6m8!1m7!1soa-4xaK4liT6cGLMLFRN7g!2m2!1d45.7462605948218!2d4.826823924592159!3f115.62334051088361!4f-9.116076249446763!5f0.7820865974627469" width="360" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    </div>
+    </div>
+    </div>
+    
     </main>
 
     <footer>

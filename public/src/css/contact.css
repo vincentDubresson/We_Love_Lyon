@@ -69,15 +69,9 @@ input {
   color: #666;display:inline-block; margin:0;
 } 
 
-.fromleft{
-  position:relative;
-  display:inline-block;
-  transition: all 0.3s ease-out;
-}
-
 .bigtextinput {
-  width: 500px;
-  height: 70px;
+  width: 150px;
+  height: 10px;
 }
 
 h2 {
@@ -87,10 +81,8 @@ h2 {
 
 .submitbuttn {
   justify-self: center;
-  width: 110px;
+  width: 100px;
 }
-
-
 
 @media screen and (min-width: 768px) {
 
@@ -108,4 +100,35 @@ h2 {
     font-size: 1.8rem;
     }
   
+    .bigtextinput {
+      width: 550px;
+      height: 10px;
+    }
+    iframe {
+      width: 800;
+      height: 600;
+    }
+    .map-responsive {
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      }
+      
+      .map-responsive iframe {
+      left:0;
+      top:0;
+      height:80%;
+      width:50%;
+      position:absolute;
+      }
+
+      .vertical {
+        border-left: 1px solid black;
+        height: 400px;
+        position: absolute;
+        left: 52%;
+        margin-top: 8%;
+      }
   }
+  

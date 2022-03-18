@@ -14,8 +14,8 @@ header {
 
 .headerNavMin {
     position: fixed;
-    top: -195px;
-    background-color: var(--backgroundDarkNav);
+    top: -230px;
+    background: linear-gradient(rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 1));
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -23,7 +23,7 @@ header {
     margin: auto;
     padding-bottom: 5px;
     width: 100vw;
-    height: 250px;
+    height: 285px;
     transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
     z-index: 1;
 }

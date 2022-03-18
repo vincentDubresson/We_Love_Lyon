@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./src/css/hotels.css">
     <link rel="stylesheet" href="./src/css/_head_foot_style.css">
     <link rel="stylesheet" href="./src/css/css_init.css">
-    <title>Les hôtels et restaurants incontournables de Lyon</title>
+    <title>Les hôtels incontournables de Lyon</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 
     <main>
         <section class="introduction">
-            <h1>Les hôtels et restaurants incontournables de Lyon</h1>
+            <h1>Les hôtels incontournables de Lyon</h1>
         </section>
 
         <section class="cards">

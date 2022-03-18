@@ -30,7 +30,7 @@
 
     <main>
         <section class="introduction">
-            <h1>Les hôtels et restaurants incontournables de Lyon</h1>
+            <h1>Les restaurants incontournables de Lyon</h1>
         </section>
 
         <section class="cards">

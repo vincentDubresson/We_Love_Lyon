@@ -11,10 +11,10 @@
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
     <link rel="stylesheet" href="./css/hotels_restaurants.css">
-    <link rel="stylesheet" href="./css/_contact.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/_head_foot_style.css">
     <link rel="stylesheet" href="./css/css_init.css">
-    <title>Les hôtels et restaurants incontournables de Lyon</title>
+    <title>Contact - We Love Lyon</title>
 </head>
 
 <body>
@@ -36,18 +36,19 @@
 
     <main>
         <section class="introduction">
-            <h1>Contacter l'équipe de We Love Lyon</h1>
+            <h1>Contacter l'équipe We Love Lyon</h1>
         </section>
 
-        <section class="formulaire">
+        <div class="container">
+    <div class="contactform">
         <form>
-    <h2>Nous contacter</h2>
-    <input type="text" placeholder="@" required="required">
-    <input type="text" placeholder="Prénom Nom" required="required">
-    <input type="text" placeholder="Votre message" required="required">
-    <input class ="submitbutton" type="submit" required="required">
-</form>
-        </section>
+            <h2> Nous contacter </h2>
+            <input type="email" placeholder="@" required>
+            <input type="text" placeholder="Nom" required>
+            <input class="bigtextinput"type="text" placeholder="Message" required>
+             </form>
+        
+         </form>    
     </main>
 
     <footer>

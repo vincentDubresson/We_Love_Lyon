@@ -26,33 +26,14 @@ html {
   box-shadow: 5px 5px 5px 5px;
 }
 
-.cards {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  border-radius: 10px;
-  width: 100%;
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.centerdiv {
-  padding-top: 1em
-}
-
 form {
-  display: flex;
-  margin: 0 auto;
+  
+  display: grid;
   justify-content: center;
-  border-radius: 30px;
-  border-color: black;
-  margin-bottom: 1em;
+  border-radius: 3px;
+  border-color: red;
+  grid-gap: 20px;
+  padding-top: 1em;
 }
 
 input {
@@ -73,7 +54,7 @@ input {
   height: 70px;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
 
   .header-type{
     margin-top: 0;
@@ -90,4 +71,3 @@ input {
     }
   
   }
-  

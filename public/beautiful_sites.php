@@ -37,7 +37,7 @@
 
         <div class="parent_description">    
             <div class="photo_description">
-                <img class="img" src="assets/picture/grande_roue.jpg" alt="place_bellecour"/>
+                <img class="img" src="src/assets/picture/grande_roue.jpg" alt="place_bellecour"/>
                 <div class="photo_text">
                     <p class="title_photo">La place Bellecour</p>
                     <p class="content">
@@ -47,7 +47,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="assets/picture/musée_confluence.jpg" alt="musée_confluence"/>
+                <img class="img" src="src/assets/picture/musée_confluence.jpg" alt="musée_confluence"/>
                 <div class="photo_text">
                     <p class="title_photo">Le musée des confluences</p>
                     <p class="content">
@@ -57,7 +57,7 @@
             </div>   
 
             <div class="photo_description">
-                <img class="img" src="assets/picture/parc.jpg" alt="place_tete_dor"/>
+                <img class="img" src="src/assets/picture/parc.jpg" alt="place_tete_dor"/>
                 <div class="photo_text">
                     <p class="title_photo">Le parc de la tête d'or</p>
                     <p class="content">
@@ -67,7 +67,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="assets/picture/amphitheatre.jpg" alt="amphitheatre"/>
+                <img class="img" src="src/assets/picture/amphitheatre.jpg" alt="amphitheatre"/>
                 <div class="photo_text">
                     <p class="title_photo">L'amphithéâtre gallo-romain</p>
                     <p class="content">
@@ -77,7 +77,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="assets/picture/cathedrale.jpg" alt="cathedrale"/>
+                <img class="img" src="src/assets/picture/cathedrale.jpg" alt="cathedrale"/>
                 <div class="photo_text">
                     <p class="title_photo">La cathédrale Saint-Jean</p>
                     <p class="content">
@@ -87,7 +87,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="assets/picture/pentes.jpg" alt="place_bellecour"/>
+                <img class="img" src="src/assets/picture/pentes.jpg" alt="place_bellecour"/>
                 <div class="photo_text">
                     <p class="title_photo">Les pentes de la Croix-Rousse</p>
                     <p class="content">
@@ -97,7 +97,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="assets/picture/fourviere.jpg" alt="fourviere"/>
+                <img class="img" src="src/assets/picture/fourviere.jpg" alt="fourviere"/>
                 <div class="photo_text">
                     <p class="title_photo">Fourvière</p>
                     <p class="content">

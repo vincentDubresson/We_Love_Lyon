@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./src/css/hotels.css">
     <link rel="stylesheet" href="./src/css/_head_foot_style.css">
     <link rel="stylesheet" href="./src/css/css_init.css">
-    <title>Les hôtels et restaurants incontournables de Lyon</title>
+    <title>Les hôtels incontournables de Lyon</title>
 </head>
 
 <body>
@@ -22,15 +22,14 @@
         <!-- place pour le _header_nav.php -->
         <?php include("_header_nav.php"); ?>
         <div class="header-type">
-            <p>On mange quoi ?</p>
-            <p>Du jésus, des bugnes, de la rosette, des coussins, des quenelles, de la cervelle de canut ..? </p>
-            <p>Et si on se faisait un petit Bouchon ?</p>
+            <p>Visiter la ville des lumières, c'est bien, mais un peu fatigant !</p>
+            <p>Et si on se faisait un bon dodo pour recharger les batteries ?</p>
         </div> 
     </header>
 
     <main>
         <section class="introduction">
-            <h1>Les hôtels et restaurants incontournables de Lyon</h1>
+            <h1>Les hôtels incontournables de Lyon</h1>
         </section>
 
         <section class="cards">

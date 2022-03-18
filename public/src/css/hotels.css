@@ -1,6 +1,7 @@
 .header-type{
-    background-image: url("../assets/picture/table-g0.jpg");
+    background-image: url("../assets/picture/lyonnight.jpg");
     background-size: cover;
+    background-position: center;
     align-items: center;
     margin-top: 0;
     padding-top: 60px;

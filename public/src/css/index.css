@@ -16,7 +16,11 @@
     width: 80%;
 }
 
-/*CSS du Carroussel*/
+img{
+    max-width: 100%;
+}
+
+/*CSS du Carroussel
 #carroussel{
     margin-top: 50px;
     width: 360px;
@@ -71,7 +75,7 @@
     transform: rotate(180deg) scale(1.1);
     opacity: 1;
     transition:all 0.3s ease;
-}
+}*/
 
 @media screen and (min-width: 768px) {
 
@@ -79,7 +83,7 @@
         margin: 0 100px;
     }
 
-    /*CSS Carroussel*/
+    /*CSS Carroussel
     #carroussel{
         margin: 100px;
         width: 900px;
@@ -103,5 +107,5 @@
     
     .photo{
        display: flex;
-    }
+    }*/
 }

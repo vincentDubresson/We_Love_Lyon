@@ -91,8 +91,8 @@ button{
 @media screen and (min-width: 768px){
 
 main{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .parent_description{
@@ -104,10 +104,6 @@ main{
 
 .img{
     max-width: 500px;
-}
-
-.content{
-    margin-top: 10px;
 }
 
 }

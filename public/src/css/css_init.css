@@ -7,8 +7,13 @@
     --colorLight: lightgray;
 }
 
+/* Import Police */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
 body {
-    
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -19,11 +24,18 @@ main {
     
 }
 
+.introduction {
+    max-width: 90%;
+    margin: auto;
+}
+
 article {
     overflow: hidden;
 }
 
 h1{
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 35px;
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
@@ -37,4 +49,3 @@ h1{
         margin: 0 100px;
     }
 
-}

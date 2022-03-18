@@ -10,18 +10,18 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="src/css/index.css">
-    <link rel="stylesheet" href="src/css/_head_foot_style.css">
-    <link rel="stylesheet" href="src/css/css_init.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="./src/css/css_init.css">
     <title>Présentation</title>
 </head>
 
 <body>
 
     <header>
-        <?php include('_header_nav.php'); ?>
+        <?php include('./_header_nav.php'); ?>
         <div class="headerTitle">
-            <img src="src/assets/logo/logofinal.png" alt="">
+            <img src="./src/assets/logo/logofinal.png" alt="">
             <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>
         </div>
     </header>
@@ -35,18 +35,21 @@
         <div id="container">
         </div>
 
+
         <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
         <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
     
     </div>
 
+
     </main>
 
     <footer>
-        <?php include('_footer.php'); ?>
+        <?php include('./_footer.php'); ?>
     </footer>
 
-    <script src="src/js/index_script.js"></script>
+    <script src="./src/js/index_script.js"></script>
+
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
 
 </body>

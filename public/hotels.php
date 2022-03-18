@@ -22,8 +22,7 @@
         <!-- place pour le _header_nav.php -->
         <?php include("_header_nav.php"); ?>
         <div class="header-type">
-            <p>Visiter la ville des lumières, c'est bien, mais un peu fatigant !</p>
-            <p>Et si on se faisait un bon dodo pour recharger les batteries ?</p>
+            <p>Lyon, ville des Lumières</p>
         </div> 
     </header>
 

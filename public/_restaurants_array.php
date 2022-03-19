@@ -1,5 +1,7 @@
 <?php
 
+//Restaurants information array
+
 $restaurantsInformations = [
     [
         'restaurantCompagnyName' => ['Le bouchon des filles'],

@@ -1,5 +1,20 @@
 <?php
 
+//Function numFormat for display '04 78 25 00 00' VS '+33478250000'
+
+function numFormat($subject){
+    $search = '+33';
+    $replace = '0';
+    $number = str_replace($search,$replace,$subject);
+    $result = sprintf("%s %s %s %s %s",
+                  substr($number, 0, 2),
+                  substr($number, 2, 2),
+                  substr($number, 4, 2),
+                  substr($number, 6, 2),
+                  substr($number, 8, 2));
+    return $result;
+}
+
 //Function cardBuildind
 
 function cardBuilding(string $compagnyName, string $bookingUrl, string $callingNumber, string $webSiteUrl, string $postalAddress, string $googleMapsUrl, string $imgLink)
@@ -15,8 +30,8 @@ function cardBuilding(string $compagnyName, string $bookingUrl, string $callingN
                     <button onclick="window.location.href = \'tel:' . $callingNumber . '\';">Appeler</button>
                     <button onclick="window.open(\'' . $webSiteUrl . '\', \'_blank\');">Site Web</button>
                     </div>
-                    <p>Téléphone: <a href="tel:' . $callingNumber . '">' . $callingNumber . '</a></p>
-                    <p>Adresse: ' . $postalAddress . '</p>
+                    <p><strong>Téléphone:</strong> <a href="tel:' . $callingNumber . '">' . numFormat($callingNumber) . '</a></p>
+                    <p><strong>Adresse:</strong> ' . $postalAddress . '</p>
                     <div>
                     <iframe src="' . $googleMapsUrl . '" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>    

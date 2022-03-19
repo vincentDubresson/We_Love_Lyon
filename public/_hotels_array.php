@@ -1,5 +1,7 @@
 <?php
 
+//Hotels information array
+
 $restaurantsInformations = [
     [
         'restaurantCompagnyName' => ['Magnifique hotel de anthony'],

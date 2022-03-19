@@ -35,6 +35,7 @@
         </section>
 
         <section class="cards">
+            <!-- place pour les cartes.php -->
             <?php include("_cardBuilding_restaurant.php"); ?>
         </section>
     </main>

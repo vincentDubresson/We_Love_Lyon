@@ -1,10 +1,12 @@
 <?php
 
+//Function cardBuildind
+
 function cardBuilding(string $compagnyName, string $bookingUrl, string $callingNumber, string $webSiteUrl, string $postalAddress, string $googleMapsUrl)
 {
             return '<div class="card">
                 <div class="card-header">
-                    <div class="card-img"></div>
+                    <div class="card-img"><img src="./src/assets/picture/musée_confluence.jpg" alt=""> </div>
                 </div>
                 <div class="card-body">
                     <h2>' . $compagnyName . '</h2>
@@ -21,6 +23,8 @@ function cardBuilding(string $compagnyName, string $bookingUrl, string $callingN
                 </div>
             </div>';
 }
+
+//Company information array
 
 $restaurantsInformations = [
     [
@@ -40,6 +44,8 @@ $restaurantsInformations = [
         'restaurantGoogleMapsUrl' => ['https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11132.580149443595!2d4.8289931!3d45.7682835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa58c48a953f25b38!2zU2FwbsOg!5e0!3m2!1sfr!2sfr!4v1647720741085!5m2!1sfr!2sfr']
     ]
 ];
+
+//Loops for execute the function with array elements
 
 foreach ($restaurantsInformations as $restaurantInformations){
 

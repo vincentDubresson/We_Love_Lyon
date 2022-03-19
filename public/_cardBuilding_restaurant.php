@@ -2,11 +2,11 @@
 
 //Function cardBuildind
 
-function cardBuilding(string $compagnyName, string $bookingUrl, string $callingNumber, string $webSiteUrl, string $postalAddress, string $googleMapsUrl)
+function cardBuilding(string $compagnyName, string $bookingUrl, string $callingNumber, string $webSiteUrl, string $postalAddress, string $googleMapsUrl, string $imgLink)
 {
             return '<div class="card">
                 <div class="card-header">
-                    <div class="card-img"><img src="./src/assets/picture/musée_confluence.jpg" alt=""> </div>
+                    <div class="card-img"><img src="' . $imgLink . '" alt="Image du lieu ' . $compagnyName . '"></div>
                 </div>
                 <div class="card-body">
                     <h2>' . $compagnyName . '</h2>
@@ -33,7 +33,8 @@ $restaurantsInformations = [
         'restaurantCallingNumber' => ['+33478304044'],
         'restaurantWebSiteUrl' => ['https://lebouchondesfilles.fr/'],
         'restaurantPostalAddress' => ['20, rue Sergent-Blandan, près de la place Sathonay 69001 Lyon'],
-        'restaurantGoogleMapsUrl' => ['https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.125609022505!2d4.827171215825589!3d45.76867287910574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb01f439fe73%3A0xc28debbb730b4077!2sLe%20Bouchon%20des%20Filles!5e0!3m2!1sfr!2sfr!4v1647521635797!5m2!1sfr!2sfr']
+        'restaurantGoogleMapsUrl' => ['https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.125609022505!2d4.827171215825589!3d45.76867287910574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb01f439fe73%3A0xc28debbb730b4077!2sLe%20Bouchon%20des%20Filles!5e0!3m2!1sfr!2sfr!4v1647521635797!5m2!1sfr!2sfr'],
+        'restaurantImageLink' => ['./src/assets/picture/lebouchondesfilles2.jpg']
     ],
     [
         'restaurantCompagnyName' => ['Sapnà'],
@@ -41,7 +42,8 @@ $restaurantsInformations = [
         'restaurantCallingNumber' => ['+33981772725'],
         'restaurantWebSiteUrl' => ['https://www.sapna.fr/'],
         'restaurantPostalAddress' => ['7 Rue de la Martinière, 69001 Lyon'],
-        'restaurantGoogleMapsUrl' => ['https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11132.580149443595!2d4.8289931!3d45.7682835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa58c48a953f25b38!2zU2FwbsOg!5e0!3m2!1sfr!2sfr!4v1647720741085!5m2!1sfr!2sfr']
+        'restaurantGoogleMapsUrl' => ['https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11132.580149443595!2d4.8289931!3d45.7682835!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa58c48a953f25b38!2zU2FwbsOg!5e0!3m2!1sfr!2sfr!4v1647720741085!5m2!1sfr!2sfr'],
+        'restaurantImageLink' => ['./src/assets/picture/restaurant_sapna_lyon_.webp']
     ]
 ];
 
@@ -55,8 +57,9 @@ foreach ($restaurantsInformations as $restaurantInformations){
     $restaurantWebSiteUrl = $restaurantInformations['restaurantWebSiteUrl'][0];
     $restaurantPostalAddress = $restaurantInformations['restaurantPostalAddress'][0];
     $restaurantGoogleMapsUrl = $restaurantInformations['restaurantGoogleMapsUrl'][0];
+    $restaurantImageLink = $restaurantInformations['restaurantImageLink'][0];
 
-echo cardBuilding($restaurantCompagnyName, $restaurantBookingUrl, $restaurantCallingNumber, $restaurantWebSiteUrl, $restaurantPostalAddress, $restaurantGoogleMapsUrl);
+echo cardBuilding($restaurantCompagnyName, $restaurantBookingUrl, $restaurantCallingNumber, $restaurantWebSiteUrl, $restaurantPostalAddress, $restaurantGoogleMapsUrl, $restaurantImageLink);
         
 }
 

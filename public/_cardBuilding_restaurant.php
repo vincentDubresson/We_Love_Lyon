@@ -39,8 +39,17 @@ function cardBuilding(string $compagnyName, string $bookingUrl, string $callingN
             </div>';
 }
 
-//Company information array
+//Condition that determines whether hotel or restaurant
 
+if ($_SERVER["SCRIPT_NAME"] === "/restaurants.php") {
+    require ("_restaurants_array.php");
+} elseif ($_SERVER["SCRIPT_NAME"] === "/hotels.php") {
+    require ("_hotels_array.php");
+}
+
+
+//Company information array
+/*
 $restaurantsInformations = [
     [
         'restaurantCompagnyName' => ['Le bouchon des filles'],
@@ -61,7 +70,7 @@ $restaurantsInformations = [
         'restaurantImageLink' => ['./src/assets/picture/restaurant_sapna_lyon_.webp']
     ]
 ];
-
+*/
 //Loops for execute the function with array elements
 
 foreach ($restaurantsInformations as $restaurantInformations){

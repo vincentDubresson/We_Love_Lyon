@@ -38,11 +38,21 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+/*Anciennes propriétés pour les images des cartes*/
+/*
 .card-img {
-    border-radius: 10px 10px 0 0;
+    /*border-radius: 10px 10px 0 0;
     background-size: cover;
     background-position: center;
-    background-image: url("../assets/picture/lyon-hoteldieu.jpg");
+    background-image: url("../assets/picture/lebouchondesfilles2.jpg");
+    height: 200px;
+    width: 100%;
+}
+*/
+
+/*Nouvelles propriétés pour les images des cartes*/
+.card-img img{
+    border-radius: 10px 10px 0 0;
     height: 200px;
     width: 100%;
 }

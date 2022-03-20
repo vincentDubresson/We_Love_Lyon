@@ -49,17 +49,17 @@ if ($_SERVER["SCRIPT_NAME"] === "/restaurants.php") {
 
 //Loops for execute the function with array elements
 
-foreach ($restaurantsInformations as $restaurantInformations){
+foreach ($compagnysInformations as $compagnyInformations){
 
-    $restaurantCompagnyName = $restaurantInformations['restaurantCompagnyName'][0];
-    $restaurantBookingUrl = $restaurantInformations['restaurantBookingUrl'][0];
-    $restaurantCallingNumber = $restaurantInformations['restaurantCallingNumber'][0];
-    $restaurantWebSiteUrl = $restaurantInformations['restaurantWebSiteUrl'][0];
-    $restaurantPostalAddress = $restaurantInformations['restaurantPostalAddress'][0];
-    $restaurantGoogleMapsUrl = $restaurantInformations['restaurantGoogleMapsUrl'][0];
-    $restaurantImageLink = $restaurantInformations['restaurantImageLink'][0];
+    $compagnyCompagnyName = $compagnyInformations['compagnyCompagnyName'][0];
+    $compagnyBookingUrl = $compagnyInformations['compagnyBookingUrl'][0];
+    $compagnyCallingNumber = $compagnyInformations['compagnyCallingNumber'][0];
+    $compagnyWebSiteUrl = $compagnyInformations['compagnyWebSiteUrl'][0];
+    $compagnyPostalAddress = $compagnyInformations['compagnyPostalAddress'][0];
+    $compagnyGoogleMapsUrl = $compagnyInformations['compagnyGoogleMapsUrl'][0];
+    $compagnyImageLink = $compagnyInformations['compagnyImageLink'][0];
 
-echo cardBuilding($restaurantCompagnyName, $restaurantBookingUrl, $restaurantCallingNumber, $restaurantWebSiteUrl, $restaurantPostalAddress, $restaurantGoogleMapsUrl, $restaurantImageLink);
+echo cardBuilding($compagnyCompagnyName, $compagnyBookingUrl, $compagnyCallingNumber, $compagnyWebSiteUrl, $compagnyPostalAddress, $compagnyGoogleMapsUrl, $compagnyImageLink);
         
 }
 

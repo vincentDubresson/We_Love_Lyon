@@ -9,7 +9,6 @@
                 url("../../src/assets/picture/lyon_vue.jpg");
     background-position: center;
     background-size: cover;
-    filter: grayscale(0.3);
     margin-top: 0;
     padding: 60px 30px 0 30px;
     max-width: 100%;

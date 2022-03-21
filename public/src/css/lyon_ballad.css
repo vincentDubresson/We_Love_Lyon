@@ -4,7 +4,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("../../src/assets/picture/crayon.jpg");
+    background-image: url("../../src/assets/picture/balad_lyon/guide_nav.jpg");
+    background-position: center;
     background-size: cover;
     margin-top: 0;
     padding-top: 60px;
@@ -12,44 +13,63 @@
     height: 230px;
 }
 
+.headerTitle p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 60px 30px 0 30px;
+}
+
 /* MAIN - ARTICLE */
 
-.mainBallad {
-    scroll-behavior: smooth;
+.introduction {
+    max-width: 90%;
+    margin: auto;
+    text-align: justify;
 }
 
 .mainBallad h2 {
+    font-size: 20px;
     text-align: center;
+    margin: 25px 0;
 }
 
 .mainBallad article {
     background-color: white;
     margin: 20px 10px;
-    padding: 0 10px;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+}
+
+.introduction a {
+    text-decoration: underline;
+    color: var(--colorDark);
+    font-weight: bold;
 }
 
 .myMapsBallad {
     display: block;
     margin: auto;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     box-shadow: 2px 2px 2px lightgray;
 }
 
-.journeyFloatLeft {
-    float: left;
-    padding: 0 5px;
+.journey {
+    padding: 0 10px;
 }
 
-.journeyFloatRight {
-    float: right;
-    padding: 0 5px;
+.journey img {
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
 }
 
 .journey p {
     text-align: justify;
+    line-height: 1.3em;
 }
 
 .linksInPage {
@@ -64,12 +84,46 @@
 
 
 @media screen and (min-width: 768px) {
-    
-    .introBallad {
-        max-width: 90%;
-        margin: auto;
+
+    .headerTitle p {
+        font-size: 16px;
+        padding: 60px 100px 0 100px;
+    }
+
+    .introduction {
+        margin-bottom: 50px;
     }
 
 
+    .mainBallad h2 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    
+    .journey img {
+        width: 250px;
+        height: 150px;
+        margin: 0 0 10px 0;
+        border-radius: 15px;
+        box-shadow: none;
+    }
+
+    .journeyFloatLeft {
+        float: left;
+        padding: 0 5px;
+    }
+    
+    .journeyFloatRight {
+        float: right;
+        padding: 0 5px;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+
+    main {
+        margin: 0 200px;
+    }
 
 }

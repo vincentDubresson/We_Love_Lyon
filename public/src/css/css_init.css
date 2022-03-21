@@ -25,11 +25,20 @@ font-weight: bold;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
+/* Global CSS */
+
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body p {
+    font-size: 13px;
 }
 
 main {
@@ -48,7 +57,7 @@ article {
 
 h1{
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 35px;
+    font-size: 24px;
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
@@ -60,6 +69,14 @@ h1{
 
     main {
         margin: 0 100px;
+    }
+
+    body p {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
     }
 
 }

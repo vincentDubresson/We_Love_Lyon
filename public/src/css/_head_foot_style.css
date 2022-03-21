@@ -33,12 +33,6 @@ header {
 }
 
 
-/*
-.headerNavMin:hover {
-   top: 0; 
-
-}*/
-
 .headerNavList {
     margin-top: 0;
     padding: 5px 10px;
@@ -88,6 +82,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
 }
 .text_footer h3 {
     font-size: 0.8rem;
@@ -152,7 +147,7 @@ footer {
         align-items: center;
     } 
     .text_footer h3 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .text_footer p {
         font-size: 1rem;

@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background-image: url("../../src/assets/picture/balad_lyon/guide_nav.jpg");
+    background-position: center;
     background-size: cover;
     margin-top: 0;
     padding-top: 60px;
@@ -37,7 +38,6 @@
 .mainBallad article {
     background-color: white;
     margin: 20px 10px;
-    /* padding: 0 10px; */
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
 }
@@ -61,7 +61,6 @@
 }
 
 .journey img {
-    text-align: center;
     width: 100%;
     margin: 0 0 10px 0;
     border-radius: 5px;
@@ -70,6 +69,7 @@
 
 .journey p {
     text-align: justify;
+    line-height: 1.3em;
 }
 
 .linksInPage {
@@ -84,8 +84,29 @@
 
 
 @media screen and (min-width: 768px) {
+
+    .headerTitle p {
+        font-size: 16px;
+        padding: 60px 100px 0 100px;
+    }
+
+    .introduction {
+        margin-bottom: 50px;
+    }
+
+
+    .mainBallad h2 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
     
-   
+    .journey img {
+        width: 250px;
+        height: 150px;
+        margin: 0 0 10px 0;
+        border-radius: 15px;
+        box-shadow: none;
+    }
 
     .journeyFloatLeft {
         float: left;
@@ -97,6 +118,12 @@
         padding: 0 5px;
     }
 
+}
 
+@media screen and (min-width: 1080px) {
+
+    main {
+        margin: 0 200px;
+    }
 
 }

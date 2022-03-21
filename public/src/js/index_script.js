@@ -57,3 +57,23 @@ button.addEventListener('click', function() {
             d.style.visibility="visible";
         }*/
 
+// SCRIPT CARROUSSEL ESSAI VINCENT
+/*
+const carroussel = [
+    {
+        picture: "../assets/carroussel_pictures/img1.jpg"
+    },
+    {
+        picture: "../assets/carroussel_pictures/img2.jpg"
+    },
+    {
+        picture: "../assets/carroussel_pictures/img3.jpg"
+    },
+    {
+        picture: "../assets/carroussel_pictures/img4.jpg"
+    },
+    {
+        picture: "../assets/carroussel_pictures/img5.jpg"
+    },
+];
+*/

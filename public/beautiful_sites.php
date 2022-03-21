@@ -22,8 +22,8 @@
         
         <?php include("_header_nav.php"); ?>
         <div class="header_type">
-            <p> Le saviez -vous ? </br></br>
-            Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !
+            <p> Le saviez -vous ?</p>
+            <p>Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !</p>
         </div>
 
     </header>
@@ -31,7 +31,7 @@
     <main>
 
         <section class="intoduction>">
-            <h1>Sites mémorables</h1>
+            <h1>Les sites incontournables de Lyon</h1>
             <p>Venez découvrir les plus beaux sites de Lyon. Si vous avez peu de temps, voici une petite collection des sites à ne pas manquer !</p>
         </section>
 
@@ -41,7 +41,7 @@
                 <div class="photo_text">
                     <p class="title_photo">La place Bellecour</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.lyon-france.com/je-decouvre-lyon/sites-et-monuments/Sites-et-monuments-remarquables/La-Place-Bellecour', '_blank');">Pour en savoir plus</button>
+                    Situé sur la presqu'île, au bord du fleuve, le quartier Bellecour-Hôtel Dieu s'étend autour de l'élégante place Bellecour, dominée par une statue équestre en bronze de Louis XIV et entourée d'hôtels particuliers de l'époque napoléonienne. <button onclick="window.open('https://www.lyon-france.com/je-decouvre-lyon/sites-et-monuments/Sites-et-monuments-remarquables/La-Place-Bellecour', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Le musée des confluences</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.museedesconfluences.fr/fr', '_blank');">Pour en savoir plus</button>
+                    Le musée des Confluences est un musée d'histoire naturelle, d'anthropologie, des sociétés et des civilisations. <button onclick="window.open('https://www.museedesconfluences.fr/fr', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>   

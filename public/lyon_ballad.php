@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./src/css/_head_foot_style.css">
     <link rel="stylesheet" href="./src/css/css_init.css">
     <link rel="stylesheet" href="./src/css/lyon_ballad.css">
-    <title><!-- Titre à changer --></title>
+    <title>We love Lyon - Balades</title>
 </head>
 
 <body>

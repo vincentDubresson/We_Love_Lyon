@@ -10,52 +10,43 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/restaurants.css">
     <link rel="stylesheet" href="./src/css/_head_foot_style.css">
     <link rel="stylesheet" href="./src/css/css_init.css">
-    <title>Présentation</title>
+    <title>Les restaurants incontournables de Lyon</title>
 </head>
 
 <body>
 
     <header>
-        <?php include('./_header_nav.php'); ?>
-        <div class="headerTitle">
-            <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>
-        </div>
+        <!-- place pour le _header_nav.php -->
+        <?php include("_header_nav.php"); ?>
+        <div class="header-type">
+            <p>On mange quoi ?</p>
+            <p>Du jésus, des bugnes, de la rosette, des coussins, des quenelles, de la cervelle de canut ..? </p>
+            <p>Et si on se faisait un petit Bouchon ?</p>
+        </div> 
     </header>
 
     <main>
-        
         <section class="introduction">
-            <h1> Présentation</h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+            <h1>Les restaurants incontournables de Lyon</h1>
+            <p>Une petite faim, une grosse faim, affamez !!! Sur cette page retrouvez les bonnes adresses pour découvrir la meilleure cuisine au monde. Dans la ville des plus grands chefs.</p>
         </section>
 
-        <img src="./src/assets/carroussel_pictures/img2.jpg" alt="Photo_de_Lyon">
-
-    <!--<div id="carroussel">
-
-        <div id="container">
-        </div>
-
-
-        <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
-        <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
-    
-    </div>-->
-
-
+        <section class="cards">
+            <!-- place pour les cartes.php -->
+            <?php include("_cardBuilding.php"); ?>
+        </section>
     </main>
 
     <footer>
-        <?php include('./_footer.php'); ?>
+        <!-- place pour le _footer.php -->
+        <?php include('_footer.php'); ?>
     </footer>
 
-    <script src="./src/js/index_script.js"></script>
-
     <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
-
+    <script src="./src/js/index_script.js"></script>
 </body>
 
 </html>

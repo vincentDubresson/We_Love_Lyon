@@ -1,7 +1,7 @@
 
 /*Header Photo static*/
 .header_type{
-    background-image: url("../assets/picture/crayon.jpg");
+    background-image: url("../assets/picture/place_bellecour_nuit.jpg");
     background-size: cover;
     background-position: center;
     align-items: center;
@@ -13,10 +13,11 @@
 
 .header_type p{
     color: whitesmoke;
-    font-size: 1.2rem;
-    padding : 10px;
+    font-size: 1.5rem;
     font-weight: bold;
+    padding : 10px;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .parent_description{
@@ -28,7 +29,7 @@
 }
 
 .photo_description{
-    width: 300px;
+    width: 320px;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -41,7 +42,7 @@
 
 .photo_text{
     position: absolute;
-    width: 300px;
+    width: 320px;
     height: 30px;
     text-decoration: none;
     bottom: 8px;
@@ -57,12 +58,12 @@
 }
 
 .photo_text:hover{
-    height: 150px;
+    height: 200px;
     background-color: var(--backgroundLightNav);
     opacity: 1;
 }
 
-.photo_text .title_photo{
+.title_photo{
     margin: 0;
     padding-top: 5px;
     text-decoration: none;
@@ -73,14 +74,17 @@
 }
 
 .content{
-    margin-top: 15px;
+    margin-top: 20px;
     text-align: justify;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .img{
     border-radius: 10px;
     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
-    width: 300px;
+    width: 320px;
     height: 350px;
 }
 
@@ -102,13 +106,6 @@ main{
     margin-left: 200px;
     margin-right: 200px;
 }
-
-/*.parent_description{
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-}*/
 
 .img{
     max-width: 320px;

@@ -23,7 +23,7 @@
         <?php include("_header_nav.php"); ?>
         <div class="header_type">
             <p> Le saviez -vous ?</p>
-            <p>Lorsque l'on voit le Mont Blanc, dans 2 jours il pleut !</p>
+            <p>Lorsque l'on voit le Mont Blanc, vous pouvez être sûr que dans 2 jours il pleuvra !</p>
         </div>
 
     </header>
@@ -37,11 +37,11 @@
 
         <div class="parent_description">    
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/grande_roue.jpg" alt="place_bellecour"/>
+                <img class="img" src="src/assets/picture/place_bellecour.jpg" alt="place_bellecour"/>
                 <div class="photo_text">
                     <p class="title_photo">La place Bellecour</p>
                     <p class="content">
-                    Situé sur la presqu'île, au bord du fleuve, le quartier Bellecour-Hôtel Dieu s'étend autour de l'élégante place Bellecour, dominée par une statue équestre en bronze de Louis XIV et entourée d'hôtels particuliers de l'époque napoléonienne. <button onclick="window.open('https://www.lyon-france.com/je-decouvre-lyon/sites-et-monuments/Sites-et-monuments-remarquables/La-Place-Bellecour', '_blank');">Pour en savoir plus</button>
+                    Le quartier Bellecour-Hôtel Dieu s'étend autour de la place Bellecour, dominée par une statue équestre en bronze de Louis XIV et entourée d'hôtels particuliers de l'époque napoléonienne. <button onclick="window.open('https://www.lyon-france.com/je-decouvre-lyon/sites-et-monuments/Sites-et-monuments-remarquables/La-Place-Bellecour', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Le musée des confluences</p>
                     <p class="content">
-                    Le musée des Confluences est un musée d'histoire naturelle, d'anthropologie, des sociétés et des civilisations. <button onclick="window.open('https://www.museedesconfluences.fr/fr', '_blank');">Pour en savoir plus</button>
+                    Le musée des Confluences est un musée d'histoire naturelle, d'anthropologie, des sociétés et des civilisations. Fait de verre, béton et inox, il se dresse comme un cap sur la pointe du confluent du Rhône et de la Saône. <button onclick="window.open('https://www.museedesconfluences.fr/fr', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>   
@@ -61,7 +61,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Le parc de la tête d'or</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.lyon.fr/lieu/parcs/parc-de-la-tete-dor', '_blank');">Pour en savoir plus</button>
+                    Le parc de la Tête d’Or est l’un des plus grands parcs urbains de France. Il offre 105 hectares de vastes pelouses, arbres centenaires, massifs fleuris, apportant en toutes saisons des touches colorées et parfumées. <button onclick="window.open('https://www.lyon.fr/lieu/parcs/parc-de-la-tete-dor', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                 <div class="photo_text">
                     <p class="title_photo">L'amphithéâtre gallo-romain</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://lugdunum.grandlyon.com/fr/', '_blank');">Pour en savoir plus</button>
+                    Autrefois capitale des Gaules, Lyon possède le plus ancien Amphithéâtre romain de la Gaule. Situé sur les pentes de la colline de la Croix-Rousse, il a été achevé en 19 après J-C. <button onclick="window.open('https://lugdunum.grandlyon.com/fr/', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                 <div class="photo_text">
                     <p class="title_photo">La cathédrale Saint-Jean</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.lyon.fr/lieu/moyen-age/cathedrale-saint-jean', '_blank');">Pour en savoir plus</button>
+                    Située au coeur du Vieux-Lyon, la Cathédrale Saint-Jean est un édifice mélangeant les styles gothique et roman. Sa construction s'étend sur trois siècles, de 1175 à 1481. <button onclick="window.open('https://www.lyon.fr/lieu/moyen-age/cathedrale-saint-jean', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Les pentes de la Croix-Rousse</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.polville.lyon.fr/des-quartiers-lechelle-de-la-ville/les-territoires/quartiers-de-centre-ancien/les-pentes-de-la-croix', '_blank');">Pour en savoir plus</button>
+                    Le quartier animé des pentes de la Croix-Rousse s'articule autour du majestueux hôtel de ville, sur la place de la Comédie  et du musée des Beaux-Arts de Lyon, qui conserve des chefs-d'œuvre impressionnistes. <button onclick="window.open('https://www.polville.lyon.fr/des-quartiers-lechelle-de-la-ville/les-territoires/quartiers-de-centre-ancien/les-pentes-de-la-croix', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                 <div class="photo_text">
                     <p class="title_photo">Fourvière</p>
                     <p class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <button onclick="window.open('https://www.fourviere.org/fr/', '_blank');">Pour en savoir plus</button>
+                    Accessible en funiculaire depuis le Vieux Lyon, le quartier de Fourvière, au sommet d'une colline, s'articule autour de la basilique richement décorée de Notre-Dame de Fourvière. <button onclick="window.open('https://www.fourviere.org/fr/', '_blank');">Pour en savoir plus</button>
                     </p>
                 </div>
             </div> 

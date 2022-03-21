@@ -4,21 +4,26 @@
     background-image: url("../assets/picture/crayon.jpg");
     background-size: cover;
     background-position: center;
-    display: flex;
     align-items: center;
     margin-top: 0;
     padding-top: 60px;
     max-width: 100%;
     height: 230px;
+}
+
+.header_type p{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding : 10px;
     font-weight: bold;
+    text-align: center;
 }
 
 .parent_description{
-   text-decoration: none;
    display: flex;
-   flex-direction: column;
    justify-content: center;
-   align-items: center;
+   flex-flow: wrap;
+   margin-top: 10px;
    z-index: 2;
 }
 
@@ -80,8 +85,8 @@
 }
 
 button{
-    background-color: red;
-    color: white;
+    background-color: var(--colorDark);
+    color: var(--colorLight);
     border-radius: 5px;
     cursor: pointer;
     float: right;
@@ -92,20 +97,21 @@ button{
 /*Tablet and computer*/
 @media screen and (min-width: 768px){
 
+
 main{
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.parent_description{
+/*.parent_description{
     flex-flow: row wrap;
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
-}
+}*/
 
 .img{
-    max-width: 500px;
+    max-width: 320px;
 }
 
 }

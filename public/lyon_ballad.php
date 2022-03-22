@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./src/css/css_init.css">
     <link rel="stylesheet" href="./src/css/lyon_ballad.css">
     <title>We love Lyon - Balades lyonnaises</title>
+
 </head>
 
 <body>

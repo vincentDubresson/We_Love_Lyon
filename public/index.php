@@ -21,7 +21,7 @@
     <header>
         <?php include('./_header_nav.php'); ?>
         <div class="headerTitle">
-            <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>
+            <!-- <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>-->
         </div>
     </header>
 

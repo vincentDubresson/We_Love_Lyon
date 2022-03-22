@@ -30,6 +30,7 @@
 }
 
 .mainBallad h2 {
+    font-family: 'Nothing You Could Do';
     font-size: 20px;
     text-align: center;
     margin: 25px 0;
@@ -39,7 +40,7 @@
     background-color: white;
     margin: 20px 10px;
     border-radius: 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .introduction a {
@@ -52,6 +53,8 @@
     display: block;
     margin: auto;
     border: none;
+    width: 100%;
+    height: 350px;
     border-radius: 10px 10px 0 0;
     box-shadow: 2px 2px 2px lightgray;
 }

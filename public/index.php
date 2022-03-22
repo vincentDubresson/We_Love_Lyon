@@ -21,6 +21,7 @@
     <header>
         <?php include('./_header_nav.php'); ?>
         <div class="headerTitle">
+            <img src="./src/assets/logo/_logo_noir.png" alt="Logo We love Lyon Noir">
             <!-- <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>-->
         </div>
     </header>
@@ -28,8 +29,8 @@
     <main>
         
         <section class="introduction">
-            <h1> Présentation</h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+            <h1>Bienvenue</h1>
+            <p>We love Lyon, c'est le site pour découvrir la capitale des Gaules, la seule ville des lumières. Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants, et bien plus !</p>        
         </section>
 
         <img src="./src/assets/carroussel_pictures/img2.jpg" alt="Photo_de_Lyon">

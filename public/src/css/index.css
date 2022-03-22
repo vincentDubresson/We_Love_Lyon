@@ -3,9 +3,9 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(
-                rgba(0, 0, 0, 0.3), 
-                rgba(0, 0, 0, 0.3)),
+    background-image: linear-gradient(
+                rgba(255, 255, 255, 0.3), 
+                rgba(255, 255, 255, 0.3)),
                 url("../../src/assets/picture/lyon_vue.jpg");
     background-position: center;
     background-size: cover;
@@ -25,7 +25,8 @@
 }
 
 .headerTitle img {
-    width: 80%;
+    width: 85%;
+    padding-top: 40px;
 }
 
 
@@ -92,8 +93,14 @@ img{
 
 @media screen and (min-width: 768px) {
 
-    .headerTitle p {
+    /* .headerTitle p {
         font-size: 16px;
+    }*/
+
+    .headerTitle img {
+        width: 60%;
+        max-width: 510px;
+        padding-top: 20px;
     }
 
     main {
@@ -126,4 +133,13 @@ img{
        display: flex;
     }*/
 
+}
+
+@media screen and (min-width: 1080px) {
+
+    .headerTitle img {
+        width: 50%;
+        max-width: 600px;
+        padding-top: 10px;
+    }
 }

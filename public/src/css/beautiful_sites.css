@@ -38,11 +38,11 @@
     height: 350px;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
+    padding: 20px;
     position: relative;
     text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .photo_text{
@@ -55,7 +55,7 @@
     border-radius: 0 0 10px 10px;
     transition: 0.3s;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     opacity: 0.6;
     font-weight: bold;
     padding-top: 15px;
@@ -88,7 +88,6 @@
 
 .img{
     border-radius: 10px;
-    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
     width: 320px;
     height: 350px;
 }

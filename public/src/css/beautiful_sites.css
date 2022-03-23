@@ -68,6 +68,12 @@
     opacity: 1;
 }
 
+.clickDown, .clickDownTwo, .clickDownThree, .clickDownFour, .clickDownFive, .clickDownSix, .clickDownSeven{
+    height: 200px;
+    background-color: var(--backgroundLightNav);
+    opacity: 1;
+}
+
 .title_photo{
     margin: 0;
     padding-top: 5px;

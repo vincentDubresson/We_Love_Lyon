@@ -1,22 +1,28 @@
-.headerTitle {
-  display: flex;
-  background-image: url("../assets/picture/contact.jpg");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header-type {
+  background-image: url("../assets/picture/table-g0.jpg");
   background-size: cover;
-  justify-content: center;
   align-items: center;
   margin-top: 0;
-  padding: 60px 30px 0 30px;
+  padding-top: 60px;
   max-width: 100%;
   height: 230px;
 }
 
-.headerTitle p {
+.header-type p {
   color: whitesmoke;
-  font-size: 14px;
-  font-weight: bold;
-  padding : 10px;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  padding-left: 20%;
+}
+
+.img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
 }
 
 .container {
@@ -32,7 +38,6 @@
   margin: 10px 20px;
   border-radius: 10px;
 }
-
 .contactform {
   width: 790px;
   height: 23em;
@@ -90,7 +95,7 @@ h2 {
 }
 
 .mapdesign {
-  width: 100%;
+  width: 26%;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -119,13 +124,18 @@ h2 {
 
 
 @media screen and (min-width: 768px) {
- 
-  .headerTitle {
-    background-position: 20%;
+  .header-type {
+    margin-top: 0;
+    padding-top: 60px;
+    max-width: 100%;
+    height: 190px;
   }
-  
-  .headerTitle p {
-    font-size: 1em;
+
+  .header-type p {
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    padding-left: 30%;
+    font-size: 1.8rem;
   }
 
   textarea {
@@ -133,9 +143,10 @@ h2 {
   }
 
   iframe {
-    width: 800;
+    width: 100%;
     height: 600;
     padding-left: 1em;
+    margin: auto;
   }
   .map-responsive {
     padding-bottom: 56.25%;
@@ -147,7 +158,7 @@ h2 {
     left: 0;
     top: 0;
     height: 80%;
-    width: 50%;
+    width: 75%;
     position: absolute;
   }
 
@@ -158,9 +169,15 @@ h2 {
     left: 52%;
   }
   .mapdesign {
-    height: 44em;
+    height: 41em;
+    width: 55%;
+    padding-top: 5em;
+    padding-right: 10em;  
   }
   .textalignmap  {
    display: flex;   
+  }
+  .textpresentation {
+    font-size: 10em;
   }
 }

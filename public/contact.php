@@ -63,7 +63,7 @@
             <div class="vertical"></div>
             <div class="mapdesign">
                 <div class="map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!4v1647596668820!6m8!1m7!1soa-4xaK4liT6cGLMLFRN7g!2m2!1d45.7462605948218!2d4.826823924592159!3f115.62334051088361!4f-9.116076249446763!5f0.7820865974627469" width="330" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.2513828586966!2d4.82462381579761!3d45.74610607910533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4ab3f7dbf9%3A0x13586dd2e918e40!2s19%20Rue%20Delandine%2C%2069002%20Lyon!5e0!3m2!1sfr!2sfr!4v1648048286634!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div>

@@ -102,10 +102,24 @@ h2 {
   justify-content: center;
   align-items: center;
   padding-top: 1em;
+  margin: 10px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.textalignmap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: 10px 20px;
   border-radius: 10px;
   overflow: hidden;
+  
 }
 
 
@@ -149,15 +163,14 @@ h2 {
 
   .vertical {
     border-left: 1px solid black;
-    height: 400px;
+    height: 390px;
     position: absolute;
     left: 52%;
-    margin-top: 8%;
   }
   .mapdesign {
     height: 44em;
   }
-  .textpresentation  {
-   text-align: center;
+  .textalignmap  {
+   display: flex;   
   }
 }

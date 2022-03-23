@@ -61,7 +61,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="textalignmap">
             <div class="vertical"></div>
             <div class="mapdesign">
                 <div class="map-responsive">

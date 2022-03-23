@@ -10,9 +10,9 @@
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
     <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
-    <link rel="stylesheet" href="src/css/css_init.css">
-    <link rel="stylesheet" href="src/css/_head_foot_style.css">
-    <link rel="stylesheet" href="src/css/beautiful_sites.css">
+    <link rel="stylesheet" href="./src/css/css_init.css">
+    <link rel="stylesheet" href="./src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="./src/css/beautiful_sites.css">
     <title>Les sites mémorables - We Love Lyon</title>
 </head>
 
@@ -21,16 +21,15 @@
     <header>
         
         <?php include("_header_nav.php"); ?>
-        <div class="header_type">
-            <p> Le saviez -vous ?</p>
-            <p>Lorsque l'on voit le Mont Blanc, vous pouvez être sûr que dans 2 jours il pleuvra !</p>
+        <div class="headerTitle">
+            <p>Le saviez -vous ? Si vous voyez le Mont Blanc par temps clair depuis Lyon, il pleuvra deux jours après !</p>
         </div>
 
     </header>
 
     <main>
 
-        <section class="intoduction>">
+        <section class="introduction">
             <h1>Les sites incontournables de Lyon</h1>
             <p>Venez découvrir les plus beaux sites de Lyon. Si vous avez peu de temps, voici une petite collection des sites à ne pas manquer !</p>
         </section>

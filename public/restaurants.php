@@ -21,7 +21,7 @@
     <header>
         <!-- place pour le _header_nav.php -->
         <?php include("_header_nav.php"); ?>
-        <div class="header-type">
+        <div class="headerTitle">
             <p>On mange quoi ?</p>
             <p>Du jésus, des bugnes, de la rosette, des coussins, des quenelles, de la cervelle de canut ..? </p>
             <p>Et si on se faisait un petit Bouchon ?</p>

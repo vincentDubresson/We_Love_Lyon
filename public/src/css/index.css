@@ -3,7 +3,7 @@
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(
+    background: linear-gradient(
                 rgba(255, 255, 255, 0.3), 
                 rgba(255, 255, 255, 0.3)),
                 url("../../src/assets/picture/lyon_vue.jpg");

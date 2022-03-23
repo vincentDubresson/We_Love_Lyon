@@ -61,11 +61,16 @@ form {
   border-color: red;
   outline: none;
 }
-
-#message {
-  width: 10em;
-  height: 2em;
+label {
+  display: block;
 }
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 10em;
+  height: 4em;
+}
+
 input {
   border: none;
   border-bottom: 1px solid black;
@@ -84,6 +89,21 @@ h2 {
   width: 110px;
 }
 
+.mapdesign {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
 @media screen and (min-width: 768px) {
  
   .headerTitle {
@@ -94,22 +114,19 @@ h2 {
     font-size: 1em;
   }
 
-  .bigtextinput {
-    width: 500px;
-    height: 70px;
+  textarea {
+    width: 100%;
   }
- #message {
-   width: 100%;
- }
+
   iframe {
     width: 800;
     height: 600;
+    padding-left: 1em;
   }
   .map-responsive {
-    overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 0;
+    width: 100%;
   }
 
   .map-responsive iframe {
@@ -126,5 +143,11 @@ h2 {
     position: absolute;
     left: 52%;
     margin-top: 8%;
+  }
+  .mapdesign {
+    height: 44em;
+  }
+  .textpresentation  {
+   text-align: center;
   }
 }

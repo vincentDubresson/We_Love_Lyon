@@ -21,8 +21,8 @@
     <header>
         <!-- place pour le _header_nav.php -->
         <?php include("_header_nav.php"); ?>
-        <div class="header-type">
-            <p>Lyon, ville des Lumières</p>
+        <div class="headerTitle">
+            <p>Le saviez-vous ? Lyon est considéré comme la ville des Lumières depuis le 19ème siècle, en hommage à la Vierge Marie qui sauva Lyon de la Peste.</p>
         </div> 
     </header>
 

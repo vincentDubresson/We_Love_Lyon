@@ -49,6 +49,7 @@ main {
 .introduction {
     max-width: 90%;
     margin: auto;
+    padding: 30px 0;
 }
 
 article {

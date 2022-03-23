@@ -1,19 +1,24 @@
 
 /*Header Photo static*/
-.header_type{
-    background-image: url("../assets/picture/place_bellecour_nuit.jpg");
+.headerTitle{
+    display: flex;
+    background: /*linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.2)),*/
+        url("../../src/assets/picture/lyon_alpes.jpg");
     background-size: cover;
     background-position: center;
+    justify-content: center;
     align-items: center;
     margin-top: 0;
-    padding-top: 60px;
+    padding: 60px 30px 0 30px;
     max-width: 100%;
     height: 230px;
 }
 
-.header_type p{
+.headerTitle p{
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 14px;
     font-weight: bold;
     padding : 10px;
     text-align: center;
@@ -33,11 +38,13 @@
     height: 350px;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
+    padding: 20px;
     position: relative;
     text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .photo_text{
@@ -50,7 +57,7 @@
     border-radius: 0 0 10px 10px;
     transition: 0.3s;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     opacity: 0.6;
     font-weight: bold;
     padding-top: 15px;
@@ -58,6 +65,12 @@
 }
 
 .photo_text:hover{
+    height: 200px;
+    background-color: var(--backgroundLightNav);
+    opacity: 1;
+}
+
+.clickDown, .clickDownTwo, .clickDownThree, .clickDownFour, .clickDownFive, .clickDownSix, .clickDownSeven{
     height: 200px;
     background-color: var(--backgroundLightNav);
     opacity: 1;
@@ -83,7 +96,6 @@
 
 .img{
     border-radius: 10px;
-    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
     width: 320px;
     height: 350px;
 }
@@ -101,10 +113,15 @@ button{
 /*Tablet and computer*/
 @media screen and (min-width: 768px){
 
+    .headerTitle {
+        background-position: bottom 30% right 0;
+    }
+    .headerTitle p {
+        font-size: 1em;
+    }
 
 main{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin: 0 100px;
 }
 
 .img{

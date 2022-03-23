@@ -34,35 +34,34 @@ img{
     max-width: 100%;
 }
 
-/*CSS du Carroussel
-#carroussel{
-    margin-top: 50px;
-    width: 360px;
-    height: 360px;
-    border:solid 4 px white;
-    box-shadow: 0 0 14px rgba(0,0,0,0.3);
+/*CSS du Carroussel*/
+
+#carroussel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#container {
     position: relative;
-    overflow: hidden;
 }
 
-#container{
-    width: 360px;
-    height: 360px;
-}
-
-.photo{
-    width: 360px;
-    height: 360px;
-    margin: 0;
-    display: inline-block;
-    background-size: cover;
+.photo_carroussel {
+    transition: 0.5s;
 }
 
 .bouton{
     position: absolute;
     width: 30px;
     cursor: pointer;
-    top: 150px;
+    padding: 0 10px;
+    top: 45%;
 }
 
 #g{
@@ -89,13 +88,9 @@ img{
     transform: rotate(180deg) scale(1.1);
     opacity: 1;
     transition:all 0.3s ease;
-}*/
+}
 
 @media screen and (min-width: 768px) {
-
-    /* .headerTitle p {
-        font-size: 16px;
-    }*/
 
     .headerTitle img {
         width: 60%;
@@ -107,31 +102,11 @@ img{
         margin: 0 100px;
     }
 
-    /*CSS Carroussel
-    #carroussel{
-        margin: 100px;
-        width: 900px;
-        height: 500px;
-    }
+    /* CSS Carroussel */
     
-    #container{
-        width: 900px;
-        height: 500px;
+    .bouton {
+        width: 40px; 
     }
-    
-    .photo{
-        width: 900px;
-        height: 500px;
-    }
-    
-    .bouton{
-        width: 40px;
-        top : 200px
-    }
-    
-    .photo{
-       display: flex;
-    }*/
 
 }
 

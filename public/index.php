@@ -53,8 +53,8 @@
         <?php include('./_footer.php'); ?>
     </footer>
 
-    <script src="./src/js/index_script.js"></script>
-
+    <script src="src/js/index_script.js"></script>
+    <script src="src/js/carroussel.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,5 @@
+/* HEADER */
+
 .headerTitle {
   display: flex;
   background-image: url("../assets/picture/contact.jpg");
@@ -19,90 +21,127 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-  width: 100%;
-  min-height: 10vh;
+
+/* MAIN FORM */
+
+.formSection {
+  background-color: white;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 12px;
-  padding-top: 1em;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin: 10px 20px;
+  margin: 20px 10px;
   border-radius: 10px;
-}
-
-.contactform {
-  width: 790px;
-  height: 23em;
-  background: #fff;
-  overflow: hidden;
-  padding: 72px 55px 90px 53px;
-  display: grid;
-  justify-content: center;
-  grid-gap: 20px;
-  border-radius: 15px 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
 }
 
 form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  border-radius: 3px;
-  grid-gap: 20px;
+  text-align: center;
+  width: 80%;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  margin: 15px 0;
 }
 
-.form-control {
-  transition: all 0.6s;
-}
-
-.form-control:focus {
-  box-shadow: none;
-  border-color: red;
-  outline: none;
-}
 label {
-  display: block;
-}
-textarea {
-  border: none;
-  border-bottom: 1px solid black;
-  width: 10em;
-  height: 4em;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 1em;
 }
 
 input {
+  height: 2em;
+}
+
+textarea {
+  height: 5em;
+  resize: none;
+}
+
+input, textarea {
+  background: linear-gradient(white, rgb(240, 240, 240));
+  width: 80%;
   border: none;
-  border-bottom: 1px solid black;
-  color: #666;
-  display: inline-block;
-  margin: 0;
+  color: grey;
+  padding: 1px 10px;
 }
 
-h2 {
-  text-align: center;
-  font-size: 28px;
+input:focus, textarea:focus {
+  outline: none;
+  color: black;
 }
 
-.btn {
-  justify-self: center;
-  width: 110px;
+.buttonForm {
+  background-color: lightgray;
+  border: none;
+  margin: 0 auto 10px;
+  width: 25%;
+  border-radius: 5px;
+  font-size: 1em;
+  box-shadow: 1px -1px 1px 1px rgb(223, 223, 223);
+  padding: 10px 30px;
 }
 
-.mapdesign {
-  width: 100%;
-  height: auto;
+.buttonForm:hover {
+  background-color: rgb(170, 170, 170);
+}
+
+.buttonForm button {
+  background: none;
+  border: none;
+}
+
+/* MAIN TEAM PRESENTATION */
+
+.teamPresentation {
+  background-color: white;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 1em;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin: 10px 20px;
+  margin: 20px 10px;
+  padding: 0 15px;
   border-radius: 10px;
-  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
 }
 
+
+.developpers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.teamList img {
+  width: 15px;
+}
+
+/* MAIN SCHOOL */
+
+.school {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*height: 300px;*/
+  margin: 20px 10px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
+}
+
+.wcs {
+  display: flex;
+  justify-content: space-around;
+}
 
 @media screen and (min-width: 768px) {
  
@@ -112,42 +151,5 @@ h2 {
   
   .headerTitle p {
     font-size: 1em;
-  }
-
-  textarea {
-    width: 100%;
-  }
-
-  iframe {
-    width: 800;
-    height: 600;
-    padding-left: 1em;
-  }
-  .map-responsive {
-    padding-bottom: 56.25%;
-    position: relative;
-    width: 100%;
-  }
-
-  .map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 80%;
-    width: 50%;
-    position: absolute;
-  }
-
-  .vertical {
-    border-left: 1px solid black;
-    height: 400px;
-    position: absolute;
-    left: 52%;
-    margin-top: 8%;
-  }
-  .mapdesign {
-    height: 44em;
-  }
-  .textpresentation  {
-   text-align: center;
   }
 }

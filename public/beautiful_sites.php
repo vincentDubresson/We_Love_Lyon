@@ -116,7 +116,7 @@
 
     
     <script src="./src/js/index_script.js"></script>
-    <script src="./src/js/beautiful_script.js"></script>
+    <!-- <script src="./src/js/beautiful_script.js"></script>-->
 
 </body>
 

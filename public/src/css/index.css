@@ -70,7 +70,7 @@ img{
     width: 30px;
     cursor: pointer;
     padding: 0 10px;
-    top: 45%;
+    top: 32%;
 }
 
 #g{
@@ -114,7 +114,8 @@ img{
     /* CSS Carroussel */
     
     .bouton {
-        width: 40px; 
+        width: 40px;
+        top: 40%; 
     }
 
 }

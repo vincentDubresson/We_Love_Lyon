@@ -225,6 +225,9 @@ input:focus, textarea:focus {
   font-weight: bold;
 }
 
+.adresse h2 {
+  font-size: 1em;
+}
 .adresseLogo {
   width: 20px;
   padding-right: 5px;

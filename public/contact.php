@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -22,7 +22,7 @@
 
         <?php include("./_header_nav.php") ?>
         <div class="headerTitle">
-            <p>Le saviez-vous : Derrière leur faux air bourgeois, le Lyonnais est très abordable et ne manquera pas de vous aider si vous êtes perdus !</p>
+            <p></p>
         </div>
 
     </header>

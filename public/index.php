@@ -22,7 +22,6 @@
         <?php include('./_header_nav.php'); ?>
         <div class="headerTitle">
             <img src="./src/assets/logo/_logo_noir.png" alt="Logo We love Lyon Noir">
-            <!-- <p>Le saviez-vous : Si vous voyez le Mont Blanc depuis ce point de vue, il pleut deux jours plus tard !</p>-->
         </div>
     </header>
 
@@ -33,18 +32,19 @@
             <p>We love Lyon, c'est le site pour découvrir la capitale des Gaules, la seule ville des lumières. Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants, et bien plus !</p>        
         </section>
 
-        <img src="./src/assets/carroussel_pictures/img2.jpg" alt="Photo_de_Lyon">
+        
 
-    <!--<div id="carroussel">
+    <div id="carroussel">
 
         <div id="container">
+
+            <img src="src/assets/carroussel_pictures/img10.jpg" alt="Photo_de_Lyon" class="photo_carroussel">
+            <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
+            <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
+        
         </div>
 
-
-        <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
-        <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
-    
-    </div>-->
+    </div>
 
 
     </main>
@@ -53,10 +53,8 @@
         <?php include('./_footer.php'); ?>
     </footer>
 
-    <script src="./src/js/index_script.js"></script>
-
-    <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
-
+    <script src="src/js/index_script.js"></script>
+    <script src="src/js/carroussel.js"></script>
 </body>
 
 </html>

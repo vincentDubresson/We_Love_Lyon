@@ -48,7 +48,7 @@
             <div class="photo_description">
                 <img class="img" src="src/assets/picture/musée_confluence.jpg" alt="musée_confluence"/>
                 <div class="photo_text two">
-                    <p class="title_photo">Le musée des confluences</p>
+                    <p class="title_photo">Le musée des Confluences</p>
                     <p class="content">
                     Le musée des Confluences est un musée d'histoire naturelle, d'anthropologie, des sociétés et des civilisations. Fait de verre, béton et inox, il se dresse comme un cap sur la pointe du confluent du Rhône et de la Saône. <button onclick="window.open('https://www.museedesconfluences.fr/fr', '_blank');">Pour en savoir plus</button>
                     </p>
@@ -58,7 +58,7 @@
             <div class="photo_description">
                 <img class="img" src="src/assets/picture/parc.jpg" alt="place_tete_dor"/>
                 <div class="photo_text three">
-                    <p class="title_photo">Le parc de la tête d'or</p>
+                    <p class="title_photo">Le parc de la Tête d'Or</p>
                     <p class="content">
                     Le parc de la Tête d’Or est l’un des plus grands parcs urbains de France. Il offre 105 hectares de vastes pelouses, arbres centenaires, massifs fleuris, apportant en toutes saisons des touches colorées et parfumées. <button onclick="window.open('https://www.lyon.fr/lieu/parcs/parc-de-la-tete-dor', '_blank');">Pour en savoir plus</button>
                     </p>
@@ -114,8 +114,9 @@
 
     </footer>
 
-    <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
+    
     <script src="./src/js/index_script.js"></script>
+    <script src="./src/js/beautiful_script.js"></script>
 
 </body>
 

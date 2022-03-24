@@ -44,8 +44,8 @@ const carroussel = [
 ];
 
 const divCarroussel = document.getElementById('container');
-const buttonD = document.getElementById('d');
-const buttonG = document.getElementById('g');
+const buttonD = document.getElementById('rightButton');
+const buttonG = document.getElementById('leftButton');
 const imageCarroussel = document.querySelector('.photo_carroussel');
 const carrousselTitle = document.querySelector('.carroussel_title');
 let i = 0;

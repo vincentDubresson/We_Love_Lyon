@@ -22,7 +22,6 @@
 <body>
 
     <header>
-        <!-- place pour le _header_nav.php -->
         <?php include("_header_nav.php"); ?>
         <div class="headerTitle">
             <p>Le saviez-vous ? Lyon est considéré comme la ville des Lumières depuis le 19ème siècle, en hommage à la Vierge Marie qui sauva Lyon de la Peste.</p>
@@ -36,17 +35,14 @@
         </section>
 
         <section class="cards">
-            <!-- place pour les cartes.php -->
             <?php include("_cardBuilding.php"); ?>
         </section>
     </main>
 
     <footer>
-        <!-- place pour le _footer.php -->
         <?php include('_footer.php'); ?>
     </footer>
 
-    <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
     <script src="./src/js/index_script.js"></script>
 </body>
 

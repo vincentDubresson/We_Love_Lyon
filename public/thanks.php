@@ -20,31 +20,85 @@
     <title>We love Lyon - Merci !</title>
 </head>
 <body>
-<header>
-
+    <header>
         <?php include("./_header_nav.php") ?>
-        <div class="headerTitle">
-            <p></p>
-        </div>
-
     </header>
 
-<div class="container1">
-	<div class="receivedmessagecontainer">
-		<section class="sectionmessage">
-			<div class="messagebody">
-				<div class="container2">
-					<h2 class="title"> Bonjour <?php echo $_GET['userFirstName']; ?> <?php echo $_GET['userLastName']; ?> !  Nous avons bien reçu vote message. Le délai d'attente moyen est de 5 à 6 mois.</h2>
-				</div>
-			</div>
-		</section>
-	</div>
-</div>
+    <?php
+    
+    $datas = array_map('trim', $_POST);
 
-<footer>
-        <!-- place pour le _footer.php -->
+    $errors = [];
+
+    if (empty($datas['userFirstName']))
+        $errors[] = 'Votre prénom est obligatoire.';
+    
+    if (strlen($datas['userFirstName']) > 50)
+        $errors[] = 'Votre prénom ne doit pas excéder 50 caractères.';
+
+    if (empty($datas['userLastName']))
+        $errors[] = 'Votre nom est obligatoire.';
+    
+    if (strlen($datas['userLastName']) > 100)
+        $errors[] = 'Votre nom ne doit pas excéder 100 caractères.';
+
+    if (empty($datas['userEmail']))
+        $errors[] = 'Votre email est obligatoire.';
+
+    if (!filter_var($datas['userEmail'], FILTER_VALIDATE_EMAIL))
+        $errors[] = 'L\'email que vous avez rentré n\'est pas valide.';
+
+    if (empty($datas['userMessage']))
+        $errors[] = 'Merci de renseigner votre message. Sans ce dernier, nous ne pourrons donner suite à votre demande.';
+
+    if (!empty($errors))
+    {
+        ?>
+        <div class="container1">
+    	<div class="receivedmessagecontainer">
+    		<section class="sectionmessage">
+    			<div class="messagebody">
+    				<div class="container2">
+                        <?php
+                        foreach ($errors as $error)
+                        {
+                            echo '<h2 class="title">' . $error . '</h2>';
+                        };
+                        ?>
+                        <button><a href="contact.php">Retour au formulaire</button></div>
+                        <?php
+                        exit();
+                        ?>
+    				</div>
+    			</div>
+    		</section>
+    	</div>
+    </div>
+
+        <?php
+    } else {
+        ?>
+    
+    <div class="container1">
+    	<div class="receivedmessagecontainer">
+    		<section class="sectionmessage">
+    			<div class="messagebody">
+    				<div class="container2">
+    					<h2 class="title">Bonjour <?= htmlentities($datas['userFirstName']) ?> <?= htmlentities($datas['userLastName']) ?> !  Nous avons bien reçu vote message. Le délai d'attente moyen est de 5 à 6 mois.</h2>
+    				</div>
+    			</div>
+    		</section>
+    	</div>
+    </div>
+
+    <?php
+    };
+    ?>
+    
+    <footer>
         <?php include '_footer.php';?>
     </footer>
+
     <script src="./src/js/index_script.js"></script>
 </body>
 </html>

@@ -68,7 +68,7 @@
             <p>Ce site web a entièrement été imaginé, modélisé, développé, normalisé et validé par notre team.</p>
             <div class="team">
                 <div class="developpers">
-                    <img src="./src/assets/logo/AGLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/AGLogo.png" alt="Photo Anthony Gouton">
                     <ul class="teamList">
                         <li>Anthony Gouton</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/Anthony-AGTN"> @Anthony-AGTN</a></li>
@@ -76,7 +76,7 @@
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/CPLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/CPLogo.png" alt="Photo Cidjie Prefol">
                     <ul class="teamList">
                         <li>Cidjie Prefol</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/Cid-Jie"> @Cid-Jie</a></li>
@@ -84,7 +84,7 @@
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/TBLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/TBLogo.png" alt="Photo Théo Boucher">
                     <ul class="teamList">
                         <li>Théo Boucher</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/TheoBoucher38"> @TheoBoucher38</a></li>
@@ -92,7 +92,7 @@
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/VDLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/VDLogo.png" alt="Photo Vincent Dubresson">
                     <ul class="teamList">
                         <li>Vincent Dubresson</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/vincentDubresson"> @vincentDubresson</a></li>

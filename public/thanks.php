@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="src/css/_head_foot_style.css">
     <link rel="stylesheet" href="src/css/css_init.css">
     <link rel="stylesheet" href="src/css/thanks.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon/favicon-16x16.png">
     <title>We love Lyon - Message envoyé</title>
 </head>
 <body>

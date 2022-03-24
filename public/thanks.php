@@ -45,5 +45,6 @@
         <!-- place pour le _footer.php -->
         <?php include '_footer.php';?>
     </footer>
+    <script src="./src/js/index_script.js"></script>
 </body>
 </html>

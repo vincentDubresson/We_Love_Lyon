@@ -68,35 +68,35 @@
             <p>Ce site web a entièrement été imaginé, modélisé, développé, normalisé et validé par notre team.</p>
             <div class="team">
                 <div class="developpers">
-                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/AGLogo.png" alt="" width="50px" height="50px">
                     <ul class="teamList">
                         <li>Anthony Gouton</li>
-                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
-                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/Anthony-AGTN"> @Anthony-AGTN</a></li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"><a href="https://www.linkedin.com/in/anthony-gouton"> @anthony-gouton</a></li>
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/CPLogo.png" alt="" width="50px" height="50px">
                     <ul class="teamList">
                         <li>Cidjie Prefol</li>
-                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
-                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/Cid-Jie"> @Cid-Jie</a></li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"><a href="https://www.linkedin.com/in/cidjie-prefol"> @cidjie-prefol</a></li>
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/TBLogo.png" alt="" width="50px" height="50px">
                     <ul class="teamList">
                         <li>Théo Boucher</li>
-                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
-                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/TheoBoucher38"> @TheoBoucher38</a></li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"><a href="https://www.linkedin.com/in/theoboucher"> @theoboucher</a></li>
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/VDLogo.png" alt="" width="50px" height="50px">
                     <ul class="teamList">
                         <li>Vincent Dubresson</li>
-                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
-                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/vincentDubresson"> @vincentDubresson</a></li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"><a href="https://www.linkedin.com/in/vincent-dubresson"> @vincent-dubresson</a></li>
                     </ul>
                 </div>
             </div>

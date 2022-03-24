@@ -28,8 +28,18 @@
     <main>
         
         <section class="introduction">
-            <h1>Bienvenue</h1>
-            <p>We love Lyon, c'est le site pour découvrir la capitale des Gaules, la seule ville des lumières. Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants, et bien plus !</p>        
+            <h1>Bienvenue à Lyon</h1>
+            <p>Classée au Patrimoine Mondial de l'UNESCO, Lyon témoigne de
+                 plus de 2 000 ans d’histoire et regorge de trésors architecturaux et culturels. Son patrimoine
+                 exceptionnel s’enrichit de de constructions architecturales contemporaines prestigieuses.
+                 Aujourd’hui métropole européenne majeure au rayonnement international de plus de 1,5 millions
+                 d’habitants, grand pôle économique français, Lyon propose un cadre de vie attractif et dynamique.</p>
+            <p>Capitale de la région Auvergne-Rhône-Alpes, Lyon est située à 2 heures de TGV de Paris et à moins
+                 2 heures de la côte méditerranéenne et des stations de ski alpines. L’aéroport de Lyon-Saint-Exupéry
+                 dessert un nombre très important de destinations.</p>
+            <h2>We love Lyon</h2>
+            <p>We love Lyon, c'est le site pour découvrir la capitale des Gaules, la seule ville des lumières. Retrouvez
+                 les plus beaux sites, les meilleurs hôtels et restaurants, et bien plus !</p>        
         </section>
 
         

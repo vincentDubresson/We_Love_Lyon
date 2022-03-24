@@ -34,6 +34,12 @@ img{
     max-width: 100%;
 }
 
+.introduction h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
 /*CSS du Carroussel*/
 
 #carroussel {

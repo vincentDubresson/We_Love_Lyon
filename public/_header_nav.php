@@ -2,7 +2,7 @@
 
             <div class="headerNavLogo">
                 <!--<img src="https://fakeimg.pl/150x50/">-->
-                <<img src="src/assets/logo/logofinal.png" alt="logo We love Lyon">
+                <img src="src/assets/logo/logofinal.png" alt="logo We love Lyon">
             </div>
 
             <ul class="headerNavList">

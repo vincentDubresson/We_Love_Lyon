@@ -4,6 +4,7 @@
   display: flex;
   background-image: url("../assets/picture/contact.jpg");
   background-size: cover;
+  background-position-y: 50%;
   align-items: center;
   margin-top: 0;
   padding-top: 60px;
@@ -22,7 +23,19 @@
   box-shadow: 5px 5px 5px 5px;
 }
 
+.wcslogo {
+  margin: auto;
+  padding: 10px;
+  justify-self: center;
+  padding-right: 5px;
+}
+.adresse {
+  padding-left: 5px;
+}
 
+h2 {
+  font-family: 'Nothing You Could Do', cursive;
+}
 /* MAIN FORM */
 
 .formSection {
@@ -62,6 +75,19 @@ input {
   height: 2em;
 }
 
+.formcontrol {
+  box-shadow: none;
+  border-radius: 0;
+  border-style: none none solid none;
+  transition:all .4s;
+}
+
+.formcontrol:focus {
+  box-shadow: none;
+  border-color: red;
+  outline: none;
+}
+
 textarea {
   height: 5em;
   resize: none;
@@ -89,6 +115,7 @@ input:focus, textarea:focus {
   font-size: 1em;
   box-shadow: 1px -1px 1px 1px rgb(223, 223, 223);
   padding: 10px 30px;
+  cursor:pointer;
 }
 
 .buttonForm:hover {
@@ -98,6 +125,14 @@ input:focus, textarea:focus {
 .buttonForm button {
   background: none;
   border: none;
+  cursor:pointer;
+}
+
+.contacthover {
+  color: black;
+}
+.contacthover:hover {
+  color: darkred;
 }
 
 /* MAIN TEAM PRESENTATION */
@@ -109,7 +144,7 @@ input:focus, textarea:focus {
   justify-content: center;
   align-items: center;
   margin: 20px 10px;
-  padding: 0 15px;
+  padding: 0 15px 15px 15px;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
 }
@@ -119,11 +154,34 @@ input:focus, textarea:focus {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: 300px;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teamList li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
 }
 
 .teamList img {
   width: 15px;
 }
+
+.teamList a {
+  color: var(--colorDark);
+}
+
+.teamList a:hover {
+  color: darkred;
+}
+
 
 /* MAIN SCHOOL */
 
@@ -142,6 +200,25 @@ input:focus, textarea:focus {
 .wcs {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.adresse p {
+  display: flex;
+  align-items: center;
+}
+
+.adresse p:first-child {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.adresseLogo {
+  width: 20px;
+  padding-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -157,5 +234,26 @@ input:focus, textarea:focus {
     margin-bottom: 1.5rem;
     padding-left: 30%;
     font-size: 1.8rem;
+  }
+  .team {
+    display: flex;
+    justify-content: space-around;
+   }
+   .wcs {
+     width: 90%;
+     padding-bottom: 1em;
+     padding-top: 1em;
+   }
+
+   .wcs iframe {
+     max-width: 500px;
+   }
+   .wcslogo {
+    margin: auto;
+    padding: 10px;
+    justify-self: center;
+  }
+  .adresse {
+    padding-left: 5px;
   }
 }

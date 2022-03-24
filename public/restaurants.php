@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="./src/css/restaurants.css">
     <link rel="stylesheet" href="./src/css/_head_foot_style.css">
     <link rel="stylesheet" href="./src/css/css_init.css">
-    <title>Les restaurants incontournables de Lyon</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/assets/favicon/favicon-16x16.png">
+    <title>We love Lyon - Restaurants incontournables</title>
 </head>
 
 <body>
@@ -31,7 +34,7 @@
     <main>
         <section class="introduction">
             <h1>Les restaurants incontournables de Lyon</h1>
-            <p>Une petite faim, une grosse faim, affamez !!! Sur cette page retrouvez les bonnes adresses pour découvrir la meilleure cuisine au monde. Dans la ville des plus grands chefs.</p>
+            <p>Une petite faim, une grosse faim, affamé !!! Sur cette page, retrouvez les bonnes adresses pour découvrir la meilleure cuisine au monde. Dans la ville des plus grands chefs.</p>
         </section>
 
         <section class="cards">

@@ -30,8 +30,12 @@
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding-bottom: 10em;
-    padding-top: 13em;
+    padding-top: 9em;
     height: 25vh;
+   }
+
+   h2 {
+     padding: 0 50px;
    }
 
   @media screen and (min-width: 768px) {

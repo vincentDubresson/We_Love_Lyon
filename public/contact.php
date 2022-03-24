@@ -68,6 +68,9 @@
             <p>Ce site web a entièrement été imaginé, modélisé, développé, normalisé et validé par notre team.</p>
             <div class="team">
                 <div class="developpers">
+                    <!-- TA : Evitez de travailler avec width et height en HTML ! Il vaut mieux
+                    passer par le CSS.
+                -->
                     <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
                     <ul class="teamList">
                         <li>Anthony Gouton</li>

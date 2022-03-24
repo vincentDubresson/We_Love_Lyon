@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TA : Trés bonne idée d'ajouter les métas ! -->
     <meta name="author" content="Anthony, Cidjie, Théo and Vincent, Wcs 2022">
     <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
     Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
@@ -21,6 +22,43 @@
 
 <body>
 
+<!-- TA : Bon réflèxe d'avoir préparer un _header_nav.php à distribuer. 
+Il est juste dommage de s'etre arreter en si bon chemin.
+En effet ,  j'aurais préféré un _header_nav qui aurait pris TOUTE la balise header
+et vous auriez pu régler le problème du titre qui change en préparant le contenu dans une 
+variable :
+
+$titleContent = '<img src="./src/assets/logo/_logo_noir.png" alt="Logo We love Lyon Noir">';
+include('./_header_nav.php');
+
+puis dans _header_nav.php:
+
+
+    <header>
+    <nav class="headerNavMin headerNavMax">
+
+            <div class="headerNavLogo">
+                <img src="src/assets/logo/logofinal.png" alt="logo We love Lyon">
+            </div>
+
+            <ul class="headerNavList">
+                <li class="headerNavLinks"><a href="index.php">Accueil</a></li>
+                <li class="headerNavLinks"><a href="beautiful_sites.php">Monuments</a></li>
+                <li class="headerNavLinks"><a href="hotels.php">Hôtels</a></li>
+                <li class="headerNavLinks"><a href="restaurants.php">Restaurants</a></li>
+                <li class="headerNavLinks"><a href="lyon_ballad.php">Balades</a></li>
+                <li class="headerNavLinks"><a href="contact.php">Contact</a></li>
+            </ul>
+
+            <button class="headerNavButton"><img src="src/assets/logo/chevronLight.png"></button>
+            
+        </nav> 
+        <div class="headerTitle">
+            <?= echo $titleContent; ?>
+        </div>
+    </header>
+
+ -->
     <header>
         <?php include('./_header_nav.php'); ?>
         <div class="headerTitle">
@@ -54,8 +92,9 @@
             <img src="src/assets/carroussel_pictures/img12.jpg" alt="Photo des quais de Saone" class="photo_carroussel">
             <p class="carroussel_title">Photo des quais de Saone</p>
             <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d" alt="bouton droite du carroussel"/>
+            <!-- TA : Non id="d" n'est pas un bon nom pour un id -->
             <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g" alt="bouton gauche du carroussel"/>
-        
+            <!-- TA : id="g" non plus ... -->
         </div>
 
     </div>
@@ -63,6 +102,9 @@
 
     </main>
 
+    <!-- TA : Meme remarque que pour le header, mieux vaut inclure les balises
+     <footer></footer> dans _footer.php
+    -->
     <footer>
         <?php include('./_footer.php'); ?>
     </footer>

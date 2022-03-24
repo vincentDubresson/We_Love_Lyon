@@ -40,6 +40,12 @@
         <div class="parent_description">    
             <div class="photo_description">
                 <img class="img" src="src/assets/picture/place_bellecour.jpg" alt="place_bellecour"/>
+                <!-- TA : C'est trés bien de mettre des alt dans les images, 
+                mais attention à bien mettre du vrai texte à l'interieur.
+                En effet si un mal voyant parcourt votre site dans les images il lira "place_bellecour"
+                il vaudrait mieux qu'il y ait "Photo de la place Bellecour".
+                (même remarque sur les autres photos)
+            -->
                 <div class="photo_text one">
                     <p class="title_photo">La place Bellecour</p>
                     <p class="content">
@@ -120,6 +126,9 @@
     
     <script src="./src/js/index_script.js"></script>
     <!-- <script src="./src/js/beautiful_script.js"></script>-->
+    <!-- TA : Si vous ne vous servez pas de ce script alors il faut enlever le commentaire
+         et supprimer le fichier dans src/js. On ne garde pas du code qui ne sert à rien
+-->
 
 </body>
 

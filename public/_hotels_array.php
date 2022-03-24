@@ -2,6 +2,24 @@
 
 //Hotels information array
 
+/* TA : OK c'est plutot une bonne idée d'avoir préparé vos infos dans des tableaux.
+    Mais n'hésitez pas à vous simplifier la vie dans le format du tableau. Ici dans 
+    vos sous-tableaux, vous insérez d'autres tableaux !! Ce qui vous oblige ensuite 
+    à ajouté un [0] quand vous les consomer.
+    Meilleure solution :
+    $compagnysInformations = [
+    [
+        'compagnyCompagnyName' => 'Fourvière Hôtel',
+        'compagnyBookingUrl' => 'https://www.secure-hotel-booking.com/smart/Fourviere-Hotel/2CQ2/fr/',
+        'compagnyCallingNumber' => '+33474700700',
+        'compagnyWebSiteUrl' => 'https://www.fourviere-hotel.com/',
+        'compagnyPostalAddress' => '23 Rue Roger Radisson 69005 Lyon',
+        'compagnyGoogleMapsUrl' => 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11134.480516153053!2d4.816429!3d45.758761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x163ebf4ed1be27f3!2zRm91cnZpw6hyZSBIw7R0ZWw!5e0!3m2!1sfr!2sfr!4v1648051539274!5m2!1sfr!2sfr',
+        'compagnyImageLink' => './src/assets/picture/fourviere-hotel-lyon.jpg'
+    ],
+    ...
+*/
+
 $compagnysInformations = [
     [
         'compagnyCompagnyName' => ['Fourvière Hôtel'],

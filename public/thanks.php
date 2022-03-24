@@ -34,6 +34,8 @@
 		<section class="sectionmessage">
 			<div class="messagebody">
 				<div class="container2">
+                    <!-- TA : Je sais qu'on l'a vu récemment mais attention à bien sécuriser la 
+                    récupération des données du formulaire-->
 					<h2 class="title"> Bonjour <?php echo $_GET['userFirstName']; ?> <?php echo $_GET['userLastName']; ?> !  Nous avons bien recu vote message, nous répondons en général entre 5 et 6 mois.</h2>
 				</div>
 			</div>

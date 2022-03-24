@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -34,28 +34,28 @@
         
         <section class="formSection">
             <h2>Formulaire de contact</h2>
-            <form  action="thanks.php"  method="POST">
+            <form  action="thanks.php">
                 <div>
                     <label  for="firstName">Prénom</label>
                     <input  type="text"  id="firstName"  name="userFirstName" 
-                            placeholder="Enter your name" required>
+                            placeholder="Votre prénom" class="formcontrol" required>
                 </div>
                 <div>
                     <label  for="lastName">Nom</label>
                     <input  type="text"  id="lastName"  name="userLastName" 
-                            placeholder="Enter your name" required>
+                            placeholder="Votre nom" class="formcontrol" required>
                 </div>
                 <div>
                     <label  for="email">Email</label>
                     <input  type="email"  id="email"  name="userEmail" 
-                            placeholder="example@example.com" required>
+                            placeholder="example@example.com" class="formcontrol" required>
                 </div>
                 <div>
                     <label  for="message">Message</label>
-                    <textarea  id="message"  name="userMessage" required></textarea>
+                    <textarea  id="message"  name="userMessage" class="formcontrol" required></textarea>
                 </div>
                 <div  class="buttonForm">
-                    <button  type="submit">Send</button>
+                    <button  type="submit">Envoyer </button>
                 </div>
             </form>
         </section>
@@ -105,10 +105,11 @@
             <div class="wcs">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11136.968598486492!2d4.8271688!3d45.7462912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc36e768b27c9a0!2sWild%20Code%20School%20-%20Formation%20d%C3%A9veloppeur%20web%20%26%20data%20analyst!5e0!3m2!1sfr!2sfr!4v1647890666917!5m2!1sfr!2sfr" width="50%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <div class="adresse">
-                    <p>Nom</p>
-                    <p>Adresse</p>
-                    <p>Site Web</p>
-                    <p>Email</p>
+                    <p>Wild Code School</p>
+                    <p>19 rue Delandine 69002</p>
+                    <p><a class="contacthover" href="https://wildcodeschool.fr">wildcodeschool.fr</a></p>
+                    <p><a class="contacthover" href="mailto:samra.adrar@wildcodeschool.com">Email</a></p>
+                    <p><a class="contacthover"href="tel:+"33761501189>07 61 50 11 89</a> </p>
                 </div>
             </div>
         </section>

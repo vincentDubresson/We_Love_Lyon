@@ -14,6 +14,6 @@
                 <li class="headerNavLinks"><a href="contact.php">Contact</a></li>
             </ul>
 
-            <button class="headerNavButton"><img src="src/assets/logo/chevronLight.png"></button>
+            <button class="headerNavButton"><img src="src/assets/logo/chevronLight.png" alt="chevron"></button>
             
         </nav> 

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anthony, Cidjie, Théo and Vincent, Wcs 2022">
+    <meta name="description" content="Bienvenue sur We love Lyon ! Découvrez la capitale des Gaules, la seule ville des Lumières.
+    Retrouvez les plus beaux sites, les meilleurs hôtels et restaurants et bien plus !">
+    <meta name="keywords" content="lyon, fourvière, confluence, restaurant, hôtels, monument, musée, parc, ballade, visite, indispensable, wild, code, school">
+    <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="stylesheet" href="src/css/_head_foot_style.css">
+    <link rel="stylesheet" href="src/css/css_init.css">
+    <title>We love Lyon - Contact</title>
+</head>
+
+<body>
+
+    <header>
+
+        <?php include("./_header_nav.php") ?>
+        <div class="headerTitle">
+            <p>Le saviez-vous : Derrière leur faux air bourgeois, le Lyonnais est très abordable et ne manquera pas de vous aider si vous êtes perdus !</p>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="introduction">
+            <h1>Contacter l'équipe We Love Lyon</h1>
+        </section>
+        
+        <section class="formSection">
+            <h2>Formulaire de contact</h2>
+            <form  action="thanks.php"  method="POST">
+                <div>
+                    <label  for="firstName">Prénom</label>
+                    <input  type="text"  id="firstName"  name="userFirstName" 
+                            placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label  for="lastName">Nom</label>
+                    <input  type="text"  id="lastName"  name="userLastName" 
+                            placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label  for="email">Email</label>
+                    <input  type="email"  id="email"  name="userEmail" 
+                            placeholder="example@example.com" required>
+                </div>
+                <div>
+                    <label  for="message">Message</label>
+                    <textarea  id="message"  name="userMessage" required></textarea>
+                </div>
+                <div  class="buttonForm">
+                    <button  type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="teamPresentation">
+            <h2>Présentation de l'équipe</h2>
+            <p>Ce site web a entièrement été imaginé, modélisé, développé, normalisé et validé par notre team.</p>
+            <div class="team">
+                <div class="developpers">
+                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <ul class="teamList">
+                        <li>Anthony Gouton</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                    </ul>
+                </div>
+                <div class="developpers">
+                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <ul class="teamList">
+                        <li>Cidjie Prefol</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                    </ul>
+                </div>
+                <div class="developpers">
+                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <ul class="teamList">
+                        <li>Théo Boucher</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                    </ul>
+                </div>
+                <div class="developpers">
+                    <img src="./src/assets/logo/cercle.png" alt="" width="50px" height="50px">
+                    <ul class="teamList">
+                        <li>Vincent Dubresson</li>
+                        <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"> Github</li>
+                        <li><img src="/src/assets/logo/LI-In-Bug.png" alt="LinkedIn Logo"> Linkedin</li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="school">
+            <img src="./src/assets/logo/logo_wcs.png" alt="Logo Wild Code School">
+            <div class="wcs">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11136.968598486492!2d4.8271688!3d45.7462912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc36e768b27c9a0!2sWild%20Code%20School%20-%20Formation%20d%C3%A9veloppeur%20web%20%26%20data%20analyst!5e0!3m2!1sfr!2sfr!4v1647890666917!5m2!1sfr!2sfr" width="50%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="adresse">
+                    <p>Nom</p>
+                    <p>Adresse</p>
+                    <p>Site Web</p>
+                    <p>Email</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- place pour le _footer.php -->
+        <?php include '_footer.php';?>
+    </footer>
+
+    <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
+    <script src="./src/js/index_script.js"></script>
+</body>
+
+</html>

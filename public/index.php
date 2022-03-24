@@ -38,7 +38,7 @@
 
         <div id="container">
 
-            <img src="src/assets/carroussel_pictures/img10.jpg" alt="Photo_de_Lyon" class="photo_carroussel">
+            <img src="src/assets/carroussel_pictures/img5.jpg" alt="Photo_de_Lyon" class="photo_carroussel">
             <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
             <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
         

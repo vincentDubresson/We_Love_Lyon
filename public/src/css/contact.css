@@ -4,6 +4,7 @@
   display: flex;
   background-image: url("../assets/picture/contact.jpg");
   background-size: cover;
+  background-position-y: 50%;
   align-items: center;
   margin-top: 0;
   padding-top: 60px;
@@ -151,16 +152,34 @@ input:focus, textarea:focus {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  width: 300px;
 }
 
 .team {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teamList li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 5px;
 }
 
 .teamList img {
   width: 15px;
 }
+
+.teamList a {
+  color: var(--colorDark);
+}
+
+.teamList a:hover {
+  color: darkred;
+}
+
 
 /* MAIN SCHOOL */
 
@@ -201,9 +220,7 @@ input:focus, textarea:focus {
   }
   .team {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 100px;
+    justify-content: space-around;
    }
    .wcs {
      width: 100%;

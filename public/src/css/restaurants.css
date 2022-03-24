@@ -1,5 +1,7 @@
 .headerTitle{
-    background-image: url("../assets/picture/table-g0.jpg");
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0)),url("../assets/picture/table-g0.jpg");
     background-size: cover;
     align-items: center;
     margin-top: 0;

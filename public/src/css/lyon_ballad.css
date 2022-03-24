@@ -49,6 +49,10 @@
     font-weight: bold;
 }
 
+.introduction a:hover {
+    color: darkred;
+}
+
 .myMapsBallad {
     display: block;
     margin: auto;
@@ -113,12 +117,12 @@
 
     .journeyFloatLeft {
         float: left;
-        padding: 0 5px;
+        padding: 0 10px 0 0;
     }
     
     .journeyFloatRight {
         float: right;
-        padding: 0 5px;
+        padding: 0 0 0 10px;
     }
 
 }

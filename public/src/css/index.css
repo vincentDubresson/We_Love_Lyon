@@ -34,6 +34,12 @@ img{
     max-width: 100%;
 }
 
+.introduction h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    margin-top: 30px;
+}
+
 /*CSS du Carroussel*/
 
 #carroussel {
@@ -52,8 +58,11 @@ img{
     position: relative;
 }
 
-.photo_carroussel {
-    transition: 0.5s;
+.carroussel_title {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
 }
 
 .bouton{
@@ -61,7 +70,7 @@ img{
     width: 30px;
     cursor: pointer;
     padding: 0 10px;
-    top: 45%;
+    top: 32%;
 }
 
 #g{
@@ -105,7 +114,8 @@ img{
     /* CSS Carroussel */
     
     .bouton {
-        width: 40px; 
+        width: 40px;
+        top: 40%; 
     }
 
 }

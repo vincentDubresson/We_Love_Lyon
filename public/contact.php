@@ -22,12 +22,10 @@
 <body>
 
     <header>
-
         <?php include("./_header_nav.php") ?>
         <div class="headerTitle">
             <p></p>
         </div>
-
     </header>
 
     <main>
@@ -37,25 +35,25 @@
         
         <section class="formSection">
             <h2>Formulaire de contact</h2>
-            <form  action="thanks.php">
+            <form  action="thanks.php" method="post">
                 <div>
                     <label  for="firstName">Prénom</label>
                     <input  type="text"  id="firstName"  name="userFirstName" 
-                            placeholder="Votre prénom" class="formcontrol" required>
+                            placeholder="Votre prénom" class="formcontrol" >
                 </div>
                 <div>
                     <label  for="lastName">Nom</label>
                     <input  type="text"  id="lastName"  name="userLastName" 
-                            placeholder="Votre nom" class="formcontrol" required>
+                            placeholder="Votre nom" class="formcontrol" >
                 </div>
                 <div>
                     <label  for="email">Email</label>
                     <input  type="email"  id="email"  name="userEmail" 
-                            placeholder="example@example.com" class="formcontrol" required>
+                            placeholder="example@example.com" class="formcontrol" >
                 </div>
                 <div>
                     <label  for="message">Message</label>
-                    <textarea  id="message"  name="userMessage" class="formcontrol" required></textarea>
+                    <textarea  id="message"  name="userMessage" class="formcontrol" ></textarea>
                 </div>
                 <div  class="buttonForm">
                     <button  type="submit">Envoyer </button>
@@ -100,7 +98,6 @@
                     </ul>
                 </div>
             </div>
-
         </section>
 
         <section class="school">
@@ -119,12 +116,10 @@
     </main>
 
     <footer>
-        <!-- place pour le _footer.php -->
         <?php include '_footer.php';?>
     </footer>
 
-    <!-- À confirmer mais n'insérer le script uniquement si besoin pour éviter les erreurs -->
-    <script src="./src/js/index_script.js"></script>
+    <script src="src/js/index_script.js"></script>
 </body>
 
 </html>

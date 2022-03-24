@@ -39,7 +39,7 @@
 
         <div class="parent_description">    
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/place_bellecour.jpg" alt="place_bellecour"/>
+                <img class="img" src="src/assets/picture/place_bellecour.jpg" alt="Photo de la place Bellecour et de sa statue de Louis XIV"/>
                 <div class="photo_text one">
                     <p class="title_photo">La place Bellecour</p>
                     <p class="content">
@@ -49,7 +49,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/musée_confluence.jpg" alt="musée_confluence"/>
+                <img class="img" src="src/assets/picture/musée_confluence.jpg" alt="Photo du bâtiment du Musée de Confluence"/>
                 <div class="photo_text two">
                     <p class="title_photo">Le musée des Confluences</p>
                     <p class="content">
@@ -59,7 +59,7 @@
             </div>   
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/parc.jpg" alt="place_tete_dor"/>
+                <img class="img" src="src/assets/picture/parc.jpg" alt="Photo d'une des portes dorées du Parc de la Tête d'Or"/>
                 <div class="photo_text three">
                     <p class="title_photo">Le parc de la Tête d'Or</p>
                     <p class="content">
@@ -69,7 +69,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/amphitheatre.jpg" alt="amphitheatre"/>
+                <img class="img" src="src/assets/picture/amphitheatre.jpg" alt="Photo des gradins de l'amphithéâtre de Fourvière"/>
                 <div class="photo_text four">
                     <p class="title_photo">L'amphithéâtre gallo-romain</p>
                     <p class="content">
@@ -79,7 +79,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/cathedrale.jpg" alt="cathedrale"/>
+                <img class="img" src="src/assets/picture/cathedrale.jpg" alt="Photo d'une vue sur la Cathédrale Saint Jean"/>
                 <div class="photo_text five">
                     <p class="title_photo">La cathédrale Saint-Jean</p>
                     <p class="content">
@@ -89,7 +89,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/pentes.jpg" alt="place_bellecour"/>
+                <img class="img" src="src/assets/picture/pentes.jpg" alt="Photo de la Montée de la Grande Côte sur les pentes de la Croix Rousse"/>
                 <div class="photo_text six">
                     <p class="title_photo">Les pentes de la Croix-Rousse</p>
                     <p class="content">
@@ -99,7 +99,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/fourviere.jpg" alt="fourviere"/>
+                <img class="img" src="src/assets/picture/fourviere.jpg" alt="Photo de la vue sur Fourvière depuis la Passerelle du Palais de Justice"/>
                 <div class="photo_text seven">
                     <p class="title_photo">Fourvière</p>
                     <p class="content">
@@ -119,7 +119,6 @@
 
     
     <script src="./src/js/index_script.js"></script>
-    <!-- <script src="./src/js/beautiful_script.js"></script>-->
 
 </body>
 

@@ -30,6 +30,7 @@ font-weight: bold;
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
@@ -39,7 +40,7 @@ body {
 
 body p {
     font-size: 13px;
-    text-align: center;
+    text-align: justify;
 }
 
 main {

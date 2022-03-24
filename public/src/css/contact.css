@@ -157,6 +157,10 @@ input:focus, textarea:focus {
   width: 300px;
 }
 
+.developpers img {
+  width: 50px;
+}
+
 .team {
   display: flex;
   flex-wrap: wrap;

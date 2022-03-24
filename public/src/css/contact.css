@@ -211,6 +211,10 @@ input:focus, textarea:focus {
   padding-bottom: 1em;
 }
 
+.wcs iframe {
+  width: 50%;
+}
+
 .adresse p {
   display: flex;
   align-items: center;

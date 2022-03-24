@@ -68,7 +68,7 @@
             <p>Ce site web a entièrement été imaginé, modélisé, développé, normalisé et validé par notre team.</p>
             <div class="team">
                 <div class="developpers">
-                    <img src="./src/assets/logo/AGLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/AGLogo.png" alt="Photo Anthony Gouton">
                     <ul class="teamList">
                         <li>Anthony Gouton</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/Anthony-AGTN"> @Anthony-AGTN</a></li>
@@ -76,7 +76,7 @@
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/CPLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/CPLogo.png" alt="Photo Cidjie Prefol">
                     <ul class="teamList">
                         <li>Cidjie Prefol</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/Cid-Jie"> @Cid-Jie</a></li>
@@ -84,7 +84,7 @@
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/TBLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/TBLogo.png" alt="Photo Théo Boucher">
                     <ul class="teamList">
                         <li>Théo Boucher</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/TheoBoucher38"> @TheoBoucher38</a></li>
@@ -92,7 +92,7 @@
                     </ul>
                 </div>
                 <div class="developpers">
-                    <img src="./src/assets/logo/VDLogo.png" alt="" width="50px" height="50px">
+                    <img src="./src/assets/logo/VDLogo.png" alt="Photo Vincent Dubresson">
                     <ul class="teamList">
                         <li>Vincent Dubresson</li>
                         <li><img src="./src/assets/logo/GitHub-Mark-32px.png" alt="GitHub logo"><a href="https://github.com/vincentDubresson"> @vincentDubresson</a></li>
@@ -105,13 +105,13 @@
 
         <section class="school">
             <div class="wcs">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11136.968598486492!2d4.8271688!3d45.7462912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc36e768b27c9a0!2sWild%20Code%20School%20-%20Formation%20d%C3%A9veloppeur%20web%20%26%20data%20analyst!5e0!3m2!1sfr!2sfr!4v1647890666917!5m2!1sfr!2sfr" width="50%" max-width="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11136.968598486492!2d4.8271688!3d45.7462912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xabc36e768b27c9a0!2sWild%20Code%20School%20-%20Formation%20d%C3%A9veloppeur%20web%20%26%20data%20analyst!5e0!3m2!1sfr!2sfr!4v1647890666917!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 <div class="adresse">
-                    <p>Wild Code School</p>
-                    <p><img class="adresseLogo" src="src/assets/logo/adressLogo.png" alt="Logo Adresse">  19 rue Delandine 69002</p>
-                    <p><img class="adresseLogo" src="src/assets/logo/URLLogo.png" alt="Logo URL"><a class="contacthover" href="https://wildcodeschool.fr">  wildcodeschool.fr</a></p>
-                    <p><img class="adresseLogo" src="src/assets/logo/mailLogo.png" alt="Logo Mail"><a class="contacthover" href="mailto:samra.adrar@wildcodeschool.com">  Email</a></p>
-                    <p><img class="adresseLogo" src="src/assets/logo/telLogo.png" alt="Logo Téléphone"><a class="contacthover"href="tel:+"33761501189>  07 61 50 11 89</a> </p>
+                    <h2>Wild Code School</h2>
+                    <p><img class="adresseLogo" src="src/assets/logo/adressLogo.png" alt="Logo Adresse">19 rue Delandine 69002</p>
+                    <p><img class="adresseLogo" src="src/assets/logo/URLLogo.png" alt="Logo URL"><a class="contacthover" href="https://wildcodeschool.fr">www.wildcodeschool.fr</a></p>
+                    <p><img class="adresseLogo" src="src/assets/logo/mailLogo.png" alt="Logo Mail"><a class="contacthover" href="mailto:samra.adrar@wildcodeschool.com">Email</a></p>
+                    <p><img class="adresseLogo" src="src/assets/logo/telLogo.png" alt="Logo Téléphone"><a class="contacthover" href="tel:+33761501189">07 61 50 11 89</a> </p>
                     <img class="wcslogo" src="./src/assets/logo/logo_wcs.png" alt="Logo Wild Code School">
                 </div>
             </div>

@@ -4,12 +4,12 @@ const carroussel = [
     {
         picture: "src/assets/carroussel_pictures/img2.jpg",
         alt: "Photo d'une vue de fourvière depuis le pont de l'université",
-        title: "Fourvière"
+        title: "Fourvière depuis les quais du Rhône"
     },
     {
         picture: "src/assets/carroussel_pictures/img1.jpg",
         alt: "Photo de la place bellecour de nuit",
-        title: "Place bellecour de nuit"
+        title: "Place Bellecour de nuit"
     },
     {
         picture: "src/assets/carroussel_pictures/img8.jpg",
@@ -19,7 +19,7 @@ const carroussel = [
     {
         picture: "src/assets/carroussel_pictures/img4.jpg",
         alt: "Photo d'une péniche sur la Saone",
-        title: "Péniche sur la Saone"
+        title: "Péniche sur la Saône"
     },
     {
         picture: "src/assets/carroussel_pictures/img5.jpg",
@@ -34,12 +34,12 @@ const carroussel = [
     {
         picture: "src/assets/carroussel_pictures/img14.jpg",
         alt: "Photo de la passerelle du palais de justice",
-        title: "Passerelle du palais de justice"
+        title: "Passerelle du Palais de Justice"
     },
     {
         picture: "src/assets/carroussel_pictures/img12.jpg",
         alt: "Photo des quais de Saone",
-        title: "Photo des quais de Saone"
+        title: "Quais de Saône"
     },
 ];
 

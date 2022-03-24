@@ -33,7 +33,9 @@
   padding-left: 5px;
 }
 
-
+h2 {
+  font-family: 'Nothing You Could Do', cursive;
+}
 /* MAIN FORM */
 
 .formSection {
@@ -142,7 +144,7 @@ input:focus, textarea:focus {
   justify-content: center;
   align-items: center;
   margin: 20px 10px;
-  padding: 0 15px;
+  padding: 0 15px 15px 15px;
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px
 }

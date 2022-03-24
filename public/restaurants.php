@@ -34,7 +34,7 @@
     <main>
         <section class="introduction">
             <h1>Les restaurants incontournables de Lyon</h1>
-            <p>Une petite faim, une grosse faim, affamez !!! Sur cette page retrouvez les bonnes adresses pour découvrir la meilleure cuisine au monde. Dans la ville des plus grands chefs.</p>
+            <p>Une petite faim, une grosse faim, affamé !!! Sur cette page, retrouvez les bonnes adresses pour découvrir la meilleure cuisine au monde. Dans la ville des plus grands chefs.</p>
         </section>
 
         <section class="cards">

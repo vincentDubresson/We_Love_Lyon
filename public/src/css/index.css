@@ -52,8 +52,10 @@ img{
     position: relative;
 }
 
-.photo_carroussel {
-    transition: 0.5s;
+.carroussel_title {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 .bouton{

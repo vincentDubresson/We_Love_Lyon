@@ -50,8 +50,8 @@
 
             <img src="src/assets/carroussel_pictures/img12.jpg" alt="Photo des quais de Saone" class="photo_carroussel">
             <p class="carroussel_title">Photo des quais de Saone</p>
-            <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d"/>
-            <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g"/>
+            <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="d" alt="bouton droite du carroussel"/>
+            <img src="src/assets/carroussel_pictures/bouton.png" class="bouton" id="g" alt="bouton gauche du carroussel"/>
         
         </div>
 

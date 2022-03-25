@@ -85,6 +85,7 @@
     			<div class="messagebody">
     				<div class="container2">
     					<h2 class="title">Bonjour <?= htmlentities($datas['userFirstName']) ?> <?= htmlentities($datas['userLastName']) ?> !  Nous avons bien reçu vote message. Le délai d'attente moyen est de 5 à 6 mois.</h2>
+                        <button><a href="contact.php">Retour au formulaire</button></div>
     				</div>
     			</div>
     		</section>
@@ -94,11 +95,11 @@
     <?php
     };
     ?>
-    
+    <!--
     <footer>
         <?php include '_footer.php';?>
     </footer>
-
+-->
     <script src="./src/js/index_script.js"></script>
 </body>
 </html>

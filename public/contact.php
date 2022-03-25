@@ -39,21 +39,21 @@
                 <div>
                     <label  for="firstName">Prénom</label>
                     <input  type="text"  id="firstName"  name="userFirstName" 
-                            placeholder="Votre prénom" class="formcontrol" >
+                            placeholder="Votre prénom" class="formcontrol" required>
                 </div>
                 <div>
                     <label  for="lastName">Nom</label>
                     <input  type="text"  id="lastName"  name="userLastName" 
-                            placeholder="Votre nom" class="formcontrol" >
+                            placeholder="Votre nom" class="formcontrol" required>
                 </div>
                 <div>
                     <label  for="email">Email</label>
                     <input  type="email"  id="email"  name="userEmail" 
-                            placeholder="example@example.com" class="formcontrol" >
+                            placeholder="example@example.com" class="formcontrol" required>
                 </div>
                 <div>
                     <label  for="message">Message</label>
-                    <textarea  id="message"  name="userMessage" class="formcontrol" ></textarea>
+                    <textarea  id="message"  name="userMessage" class="formcontrol" required></textarea>
                 </div>
                 <div  class="buttonForm">
                     <button  type="submit">Envoyer </button>

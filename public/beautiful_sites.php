@@ -59,7 +59,7 @@
             </div>   
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/parc.jpg" alt="Photo d'une des portes dorées du Parc de la Tête d'Or"/>
+                <img class="img" src="src/assets/picture/parc2.jpg" alt="Photo d'une des portes dorées du Parc de la Tête d'Or"/>
                 <div class="photo_text three">
                     <p class="title_photo">Le parc de la Tête d'Or</p>
                     <p class="content">
@@ -99,7 +99,7 @@
             </div>
 
             <div class="photo_description">
-                <img class="img" src="src/assets/picture/fourviere.jpg" alt="Photo de la vue sur Fourvière depuis la Passerelle du Palais de Justice"/>
+                <img class="img" src="src/assets/picture/fourviere2.jpg" alt="Photo de la vue sur Fourvière depuis la Passerelle du Palais de Justice"/>
                 <div class="photo_text seven">
                     <p class="title_photo">Fourvière</p>
                     <p class="content">
